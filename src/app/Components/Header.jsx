@@ -43,11 +43,11 @@ function Header() {
         {/* Logo */}
         <div className='flex-shrink-0 w-[150px] lg:w-[190px] cursor-pointer' onClick={() => handleNavigation('/')}>
           <Image
-            src="/Logo/Logo.png"
+            src="/Logo/logo.png"
             alt="Description of the image"
             width={500}
             height={500}
-            className="relative" 
+            className="relative"
             priority
           />
         </div>

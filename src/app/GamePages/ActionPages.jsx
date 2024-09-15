@@ -16,7 +16,7 @@ export const ActionPhoto = [
         Playto: 'https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en_IN'
     }, {
 
-        img: '/Action/Coverfire.jpg',
+        img: '/Action/coverfire.jpg',
         title: 'Cover Fire: Offline Shooting',
         description: 'In Cover Fire, players step into the shoes of a skilled mercenary, tasked with taking down enemies across various missions. The game features a diverse array of missions set in different environments, from war-torn cities to dense jungles. Each mission presents unique challenges, requiring players to adapt their strategies and utilize a range of weapons and tactics.',
         description1: 'The game stands out with its impressive 3D graphics, detailed environments, and realistic sound effects. The controls are intuitive, allowing players to focus on the action rather than struggling with complex inputs. As players progress, they can unlock new weapons, upgrade their gear, and enhance their skills, adding depth and replayability to the experience.',
@@ -29,11 +29,11 @@ export const ActionPhoto = [
         time: 'Mar 30, 2017',
         Appto: 'https://apps.apple.com/us/app/cover-fire-gun-shooting-games/id1148931033',
         Playto: 'https://play.google.com/store/apps/details?id=com.generagames.resistance&hl=en-US'
-    },   {
-      
+    }, {
+
         img: '/Action/PUBG_MOBILE__Aftermath_4bb1c1.jpg',
         title: 'PUBG MOBILE: Aftermath',
-        description:'Here, you have only one objective, to gather favourable resources, shoot enemies and survive! What seems like a simple objective is actually very challenging, as here you are up against real players who share your objectives, so watch out for the enemies you encounter!',
+        description: 'Here, you have only one objective, to gather favourable resources, shoot enemies and survive! What seems like a simple objective is actually very challenging, as here you are up against real players who share your objectives, so watch out for the enemies you encounter!',
         description1: 'PUBG MOBILE: Aftermath offers players a large number of maps to play on and a thrilling experience of survival in a real fight to the death.Players can invite your friends to form a team with you and start fighting side by side in a thrilling 4V4 with voice chat to work cleverly together to achieve victory! There are also superb game modes for you to experience.',
         description2: 'PUBG MOBILE: Aftermath is arguably the most popular shooting game of the moment, offering players a wide range of guns and props to satisfy all their shooting desires. No matter which game mode you play in, you wll be able to experience an exciting adventure.',
         play: 'The gameplay of PUBG MOBILE: Aftermath is not too difficult to say the least, but not too easy to say the least.PUBG MOBILE: Aftermath is a survival shooter in which the player faces all enemies except himself and a shooting adventure begins.',
@@ -42,10 +42,10 @@ export const ActionPhoto = [
         fileSize: '378M',
         version: '1.8.0',
         time: '12 January 2022',
-         Appto: 'https://apps.apple.com/us/app/pubg-mobile/id1330123889',
+        Appto: 'https://apps.apple.com/us/app/pubg-mobile/id1330123889',
         Playto: 'https://play.google.com/store/apps/details?id=com.tencent.ig&hl=zh&gl=US'
     }, {
-      img: '/Action/Garena_Free_Fire__5th_Anniv_ed790b.jpg',
+        img: '/Action/Garena_Free_Fire__5th_Anniv_ed790b.jpg',
         title: 'Garena Free Fire: 5th Anniv',
         description: 'Every player here is your opponent, and you must be careful of anyone who appears. Stay calm, search for weapons within safe range, shoot your enemies and then loot their weapons to become more powerful. On top of that, you need to be aware of the ever-smaller safe zone, and only by staying within it will you be able to avoid air strikes. In just ten minutes, will you be able to take out your enemies and be the last one to win?',
         description1: 'This is not a simple single player game, you can form a team with your friends. Create a team of up to 4 people and join the game, get in touch with your teammates in the first place, agree on a common battle plan, cooperate with each other and then win with your team in this massive battle!',
@@ -62,7 +62,7 @@ export const ActionPhoto = [
     {
         img: '/Action/Honkai_Impact_3rd_185645.jpg',
         title: 'Honkai Impact 3rd',
-        description:'A young girl and boy stand in the dust and sand under a strange sky.You are a pair of twins on a journey, drifting from beyond the world. Your blood relatives were taken away by strange gods, and you were sealed by the gods into a deep sleep.',
+        description: 'A young girl and boy stand in the dust and sand under a strange sky.You are a pair of twins on a journey, drifting from beyond the world. Your blood relatives were taken away by strange gods, and you were sealed by the gods into a deep sleep.',
         description1: 'When you wake up again, the landscape of heaven and earth has changed .In this vast world, you can travel through the seven kingdoms, meet companions with different personalities and unique abilities, fight together with them against powerful enemies and set out to find your blood relatives, or roam without a destination, immersing yourself in a world full of life and letting your curiosity drive you to discover the mysteries of every corner ......',
         description2: 'The original Gods is an open-world adventure game, which means that from the moment you set foot in Tivat, there is always something new to see, whether it is crossing a mountain or a river, as long as you plan your energy wisely. If you see a wandering',
         play: 'The game has an open world map and apart from normal walking, players can explore a variety of ruins and terrain by climbing, swimming and gliding.',
@@ -71,12 +71,12 @@ export const ActionPhoto = [
         fileSize: '939M',
         version: '2.0.0_3513686_3617618',
         time: '9 July 2021',
-         Appto: 'https://apps.apple.com/us/app/genshin-impact-natlan-launch/id1517783697',
+        Appto: 'https://apps.apple.com/us/app/genshin-impact-natlan-launch/id1517783697',
         Playto: 'https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=None'
-    },  {
+    }, {
         img: '/Action/c-ops.jpg',
         title: 'Critical Ops: Multiplayer FPS',
-        description:'Critical Ops is a highly engaging and fast-paced multiplayer first-person shooter (FPS) game developed by Critical Force. Set in a modern-day environment, the game offers players an adrenaline-pumping experience through its realistic graphics, tactical gameplay, and competitive matchmaking.',
+        description: 'Critical Ops is a highly engaging and fast-paced multiplayer first-person shooter (FPS) game developed by Critical Force. Set in a modern-day environment, the game offers players an adrenaline-pumping experience through its realistic graphics, tactical gameplay, and competitive matchmaking.',
         description1: 'In Critical Ops, players are thrust into intense combat scenarios where they can either take on the role of a Counter-Terrorist or a Terrorist. The primary objective varies depending on the team: Counter-Terrorists aim to prevent bombings and eliminate terrorists, while Terrorists strive to plant bombs at designated sites or eliminate all Counter-Terrorists. The game features a range of maps, each with distinct layouts and strategic elements, adding to the depth and complexity of the gameplay.',
         description2: 'One of the game’s standout features is its emphasis on tactical gameplay. Unlike many other FPS games that focus solely on fast reflexes, Critical Ops requires players to think strategically about their movements, communication, and teamwork. The game’s mechanics are designed to reward careful planning and coordination, making it appealing to both casual players and competitive gamers.',
         play: 'Choose Your Team: At the start of each match, players are randomly assigned to either the Counter-Terrorists or Terrorists team. Your role will dictate your objectives and strategy for the round.',
@@ -85,13 +85,13 @@ export const ActionPhoto = [
         fileSize: '929 MB',
         version: '1.46.1.f2733',
         time: 'Sep 10, 2024',
-         Appto: 'https://apps.apple.com/us/app/critical-ops-online-pvp-fps/id1017717218',
+        Appto: 'https://apps.apple.com/us/app/critical-ops-online-pvp-fps/id1017717218',
         Playto: 'https://play.google.com/store/apps/details?id=com.criticalforceentertainment.criticalops'
     },
     {
         img: '/Action/shadowfight.webp',
         title: 'Shadow Fight 4: Arena',
-        description:'Shadow Fight 4: Arena is an exciting and visually captivating fighting game developed by Nekki. This installment in the popular Shadow Fight series continues the legacy of its predecessors with enhanced graphics, refined combat mechanics, and a diverse roster of characters. The game features a unique blend of martial arts and shadowy aesthetics, creating a compelling experience for both new players and longtime fans.',
+        description: 'Shadow Fight 4: Arena is an exciting and visually captivating fighting game developed by Nekki. This installment in the popular Shadow Fight series continues the legacy of its predecessors with enhanced graphics, refined combat mechanics, and a diverse roster of characters. The game features a unique blend of martial arts and shadowy aesthetics, creating a compelling experience for both new players and longtime fans.',
         description1: 'In Shadow Fight 4: Arena, players engage in one-on-one combat against opponents in various arenas. The game combines traditional fighting game mechanics with RPG elements, allowing for deep character customization and progression. Players can select from a wide array of fighters, each with their own distinct fighting styles, special moves, and abilities. The visual design of the game is striking, with beautifully rendered characters and environments that bring the shadowy world to life.',
         description2: 'The game’s combat system is known for its fluidity and depth. Players can execute a variety of attacks, including basic punches and kicks, as well as more complex combos and special moves. Mastery of these moves is essential for success, as battles often require a combination of timing, strategy, and precise execution. The addition of RPG elements allows players to level up their characters, unlock new skills, and equip powerful gear to enhance their abilities in battle.',
         play: 'Choose Your Fighter: At the start of the game, you’ll be presented with a roster of characters to choose from. Each fighter has a unique set of moves, strengths, and weaknesses. Experiment with different characters to find one that matches your playstyle.',
@@ -100,13 +100,13 @@ export const ActionPhoto = [
         fileSize: '147 MB',
         version: '1.9.20',
         time: 'Aug 14, 2024',
-         Appto: 'https://apps.apple.com/us/app/shadow-fight-4-arena/id1479050948',
+        Appto: 'https://apps.apple.com/us/app/shadow-fight-4-arena/id1479050948',
         Playto: 'https://play.google.com/store/apps/details?id=com.nekki.shadowfightarena&hl=en-US'
     },
     {
         img: '/Action/Dead2.jpg',
         title: 'Into the Dead 2',
-        description:'Into the Dead 2 is a gripping zombie survival game where players must navigate through an apocalyptic world overrun by undead hordes. The game combines intense first-person shooter mechanics with a survival narrative, as players use various weapons and tools to fend off zombies while attempting to reach safety.',
+        description: 'Into the Dead 2 is a gripping zombie survival game where players must navigate through an apocalyptic world overrun by undead hordes. The game combines intense first-person shooter mechanics with a survival narrative, as players use various weapons and tools to fend off zombies while attempting to reach safety.',
         description1: 'The game features a rich storyline with multiple chapters, each offering unique challenges and objectives. Players can explore different environments, including forests, military bases, and abandoned cities, each filled with zombies and obstacles.',
         description2: ' Into the Dead 2 includes a variety of weapons and vehicles to aid in survival. Players can upgrade their equipment and unlock new items as they progress through the game. The gameplay is designed to be both action-packed and strategic, requiring players to manage their resources and make quick decisions.',
         play: 'Understand the Controls: The game features simple touch controls that allow players to navigate their character through the environment. Swipe left or right to dodge obstacles, swipe up to jump, and swipe down to slide. Familiarize yourself with these controls to effectively maneuver through the levels.',
@@ -115,13 +115,13 @@ export const ActionPhoto = [
         fileSize: '2 GB',
         version: '1.72.0',
         time: 'Aug 23, 2024',
-         Appto: 'https://apps.apple.com/us/app/into-the-dead-2/id1151220243',
+        Appto: 'https://apps.apple.com/us/app/into-the-dead-2/id1151220243',
         Playto: 'https://play.google.com/store/apps/details?id=com.pikpok.dr2.play&hl=en-US'
     },
     {
         img: '/Action/MARVEL_Strike_Force__Squad_RPG_33b05a.jpg',
         title: 'Marvel Contest of Champions ',
-        description:'Are you a fan of MARVEL? Which hero from MARVEL do you like? Now you have the chance to fight alongside your favorite MARVEL characters in  MARVEL Strike Force game! MARVEL Strike Force is a 5-on-5 turn-based role-playing game released by FoxNext on March 28, 2018 on iOS and Android platforms, set in the MARVEL universe that creates a new game world!Earth is under attack, and it is time to build a powerful army to protect it! You can choose from Dr. Strange, Loki, Venom, Spider-Man, Captain America, Iron Man and other famous Marvel heroes, or you can choose super villains to join your team and form a strong and powerful squad to fight to defend the peace of the universe.',
+        description: 'Are you a fan of MARVEL? Which hero from MARVEL do you like? Now you have the chance to fight alongside your favorite MARVEL characters in  MARVEL Strike Force game! MARVEL Strike Force is a 5-on-5 turn-based role-playing game released by FoxNext on March 28, 2018 on iOS and Android platforms, set in the MARVEL universe that creates a new game world!Earth is under attack, and it is time to build a powerful army to protect it! You can choose from Dr. Strange, Loki, Venom, Spider-Man, Captain America, Iron Man and other famous Marvel heroes, or you can choose super villains to join your team and form a strong and powerful squad to fight to defend the peace of the universe.',
         description1: 'As you know, each hero has their own unique skills, Iron Man has an advanced power armor, Spider-Man has spider-like abilities, Captain America has become a super-soldier through drugs ...... Each hero is a unique being and you can upgrade and evolve your heroes to give them more power.',
         description2: 'When the war begins, who will you choose to come out and fight? This is a tricky question, because the hero you choose must have the ability to defeat your opponent. As you choose, pair specific superheroes with supervillains to perform combo moves to destroy enemies. 5v5 combat in expert combat tactics gives you the power to defeat the greatest villains in the Marvel',
         play: 'When you first enter this game, you can unlock several heroes for free, including Thor, Deadpool and Captain America. The rest of the heroes need to be unlocked through the game. This means that at the beginning of the game, you can only choose Thor, Deadpool and Captain America to fight against. Although it is free to get the heroes, but you can still give them upgrades, each hero upgrade will increase the combat power, which can help you pass the battle of heroes faster and better. After passing the Battle of Heroes reach hero level point 6-9, where there are plenty of Captain Marvel character pieces to obtain, and powerful characters will help you progress in the battle and crusade.',
@@ -130,13 +130,13 @@ export const ActionPhoto = [
         fileSize: '39MB',
         version: '6.5.1',
         time: 'Oct 27, 2022',
-         Appto: 'https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049',
+        Appto: 'https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049',
         Playto: 'https://play.google.com/store/apps/details?id=com.foxnextgames.m3&hl=en_US&gl=US'
     },
     {
         img: '/Action/convice.jpg',
         title: 'Knives Out',
-        description:'Knives Out is an engaging battle royale game developed by NetEase Games, offering a thrilling and competitive multiplayer experience. Set in a dynamic and expansive open world, the game pits players against each other in a fight for survival, where strategic gameplay and quick reflexes are crucial for victory.',
+        description: 'Knives Out is an engaging battle royale game developed by NetEase Games, offering a thrilling and competitive multiplayer experience. Set in a dynamic and expansive open world, the game pits players against each other in a fight for survival, where strategic gameplay and quick reflexes are crucial for victory.',
         description1: 'In Knives Out, players are dropped into a vast and detailed map, where they must scavenge for weapons, equipment, and supplies while eliminating other players to be the last one standing. The game features a wide range of weapons and gear, from firearms and melee weapons to armor and medical supplies. The diverse array of available equipment allows players to adapt their strategies based on their playstyle and the evolving dynamics of each match.',
         description2: 'The game’s graphics are impressive, with detailed environments and realistic character models that contribute to an immersive gameplay experience. The dynamic weather conditions and day-night cycle add an extra layer of challenge and realism to the game, affecting visibility and gameplay strategies.',
         play: 'Get Familiar with the Controls: Before diving into a match, spend some time getting comfortable with the game’s controls. These typically include movement, aiming, shooting, and using various items. Practice these controls to build muscle memory and improve your overall performance.',
@@ -145,8 +145,8 @@ export const ActionPhoto = [
         fileSize: '350MB',
         version: '5.0 and up',
         time: 'Aug 29, 2024',
-         Appto: '',
+        Appto: '',
         Playto: 'https://play.google.com/store/apps/details?id=com.netease.ko&hl=en-US'
     },
-   
+
 ]
