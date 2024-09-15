@@ -16,7 +16,7 @@ export const ActionPhoto = [
         Playto: 'https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en_IN'
     }, {
 
-        img: '/Action/coverfire.jpg',
+        img: '/Action/Fire.jpg',
         title: 'Cover Fire: Offline Shooting',
         description: 'In Cover Fire, players step into the shoes of a skilled mercenary, tasked with taking down enemies across various missions. The game features a diverse array of missions set in different environments, from war-torn cities to dense jungles. Each mission presents unique challenges, requiring players to adapt their strategies and utilize a range of weapons and tactics.',
         description1: 'The game stands out with its impressive 3D graphics, detailed environments, and realistic sound effects. The controls are intuitive, allowing players to focus on the action rather than struggling with complex inputs. As players progress, they can unlock new weapons, upgrade their gear, and enhance their skills, adding depth and replayability to the experience.',
