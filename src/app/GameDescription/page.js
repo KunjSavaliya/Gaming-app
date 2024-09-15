@@ -1,6 +1,6 @@
 'use client'; // Required for client-side hooks in the App Router
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation'; // For extracting query params
 import Image from 'next/image';
 import { imgTile } from '../Home/gameTitle';
@@ -12,16 +12,14 @@ import { AiFillSafetyCertificate } from "react-icons/ai";
 import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
+import Carousel from '../Components/Carousel';
 
-import Carousel from '../Components/Carousel'
-
-
-function GameDescription() {
+function GameDetails() {
   const searchParams = useSearchParams();
   const title = searchParams.get('title'); // Get the title from the URL
   const router = useRouter();
 
-  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto)
+  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto);
   // Find the game based on the title
   const game = photos.find((game) => game?.title === title);
 
@@ -40,12 +38,14 @@ function GameDescription() {
       window.location.href = game.Appto; // Redirect to the App Store link
     }
   };
+
   const handlePlayStoreClick = () => {
     const userConfirmed = window.confirm("Are you sure you want to continue?");
     if (userConfirmed) {
       window.location.href = game.Playto; // Redirect to the App Store link
     }
   };
+
   return (
     <div className="flex flex-col items-center p-5">
       <div className="w-full max-w-screen-lg">
@@ -70,7 +70,6 @@ function GameDescription() {
               width={500} // Provide a width for responsive images.
               height={300} // Provide a height for responsive images.
             />
-
           </div>
 
           {/* Game Details */}
@@ -116,21 +115,22 @@ function GameDescription() {
         </div>
 
         <div className="mt-8 ">
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             <AiFillSafetyCertificate className="text-lg md:text-xl font-extrabold text-[#696969]" />
             All download links on this website jump to official platforms such as App Store and Google Play. No viruses, No malware.
           </h2>
         </div>
+
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>Description</h1>
         <hr className="w-full border-gray-300 border-t-1" />
         <div className="mt-2 ">
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.description}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.description1}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.description2}
           </h2>
         </div>
@@ -140,25 +140,28 @@ function GameDescription() {
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>How To Play</h1>
         <hr className="w-full border-gray-300 border-t-1" />
         <div className="mt-2 ">
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.play}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.play1}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center  gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
             {game?.play2}
           </h2>
         </div>
-
       </div>
       <div className='mt-5'>
         <Carousel />
-
       </div>
-
     </div>
   );
 }
 
-export default GameDescription;
+export default function GameDescription() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <GameDetails />
+    </Suspense>
+  );
+}
