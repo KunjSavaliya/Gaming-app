@@ -5,6 +5,7 @@ import { ActionPhoto } from '../GamePages/ActionPages';
 import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
+import { PuzzlePhoto } from '../GamePages/PuzzlePage';
 
 import { imgTile } from '../Home/gameTitle';
 
@@ -12,21 +13,21 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(7); // Default number of images
 
-  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto)
+  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto)
 
   // Update the number of images per page based on screen size
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setItemsPerPage(2); // Mobile screens
+        setItemsPerPage(3); // Mobile screens
       } else if (window.innerWidth >= 640 && window.innerWidth < 768) {
-        setItemsPerPage(3); // Small screens
+        setItemsPerPage(5); // Small screens
       } else if (window.innerWidth >= 768 && window.innerWidth < 1024) {
-        setItemsPerPage(4); // Medium screens
+        setItemsPerPage(7); // Medium screens
       } else if (window.innerWidth >= 1024 && window.innerWidth < 1280) {
-        setItemsPerPage(7); // Large screens
+        setItemsPerPage(9); // Large screens
       } else {
-        setItemsPerPage(7); // Extra-large screens
+        setItemsPerPage(9); // Extra-large screens
       }
     };
 
@@ -50,10 +51,10 @@ const Carousel = () => {
   return (
     <div className="relative  mb-6">
       {/* Image grid */}
-      <div className="relative grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 transition-transform duration-500 ease-in-out">
+      <div className="relative grid grid-cols-3 gap-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9 transition-transform duration-500 ease-in-out">
         {photos.slice(currentIndex, currentIndex + itemsPerPage).map((image, index) => (
           <div key={index} className="flex-shrink-0 w-full">
-            <div className="relative overflow-hidden rounded-[30px] w-[100px] h-[100px] cursor-pointer">
+            <div className="relative overflow-hidden rounded-[30px] w-[70px] h-[70px] cursor-pointer">
               <Image
                 src={image.img}
                 alt={image.title}

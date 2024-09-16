@@ -24,8 +24,8 @@ function Adventure() {
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {AdventurePhoto?.map((item, index) => (
                     <div
-                        className="relative group"
-                        key={item.id || index}
+                        className="relative group animate__animated animate__backInDown"
+                        key={item.id || index} 
                         onClick={() => handleImageClick(item)}
                     >
                         <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">

@@ -13,13 +13,15 @@ import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
 import Carousel from '../Components/Carousel';
+import { PuzzlePhoto } from '../GamePages/PuzzlePage';
+
 
 function GameDetails() {
   const searchParams = useSearchParams();
   const title = searchParams.get('title'); // Get the title from the URL
   const router = useRouter();
 
-  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto);
+  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto);
   // Find the game based on the title
   const game = photos.find((game) => game?.title === title);
 
