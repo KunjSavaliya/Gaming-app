@@ -2,10 +2,15 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 
 function Footer() {
+    const router = useRouter();
 
+    const handleNavigation = (path) => {
+        router.push(path);
+      };
     return (
         <>
             <div className="flex flex-col items-center p-5">
@@ -13,9 +18,9 @@ function Footer() {
                     <hr className="w-full mb-4 border-gray-300 border-t-1" />
 
                     <div className='flex gap-12 '>
-                        <h1 className='font-light text-[#696969]'>About Us</h1>
-                        <h1 className='font-light text-[#696969]'>Privacy</h1>
-                        <h1 className='font-light text-[#696969]'>Terms of Use</h1>
+                        <h1 className='font-light text-[#696969] cursor-pointer' onClick={() => handleNavigation('/Privacy/AboutUs')}>About Us</h1>
+                        <h1 className='font-light text-[#696969] cursor-pointer' onClick={() => handleNavigation('/Privacy/Privacy')}>Privacy</h1>
+                        <h1 className='font-light text-[#696969] cursor-pointer' onClick={() => handleNavigation('/Privacy/TermsOfUse')}>Terms of Use</h1>
 
                     </div>
                     <h1 className='font-light text-[#696969] mt-6'>Copyright © 2024 populargamesforyou.com</h1>

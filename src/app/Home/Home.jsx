@@ -18,7 +18,7 @@ import 'animate.css';
 
 function HomeGames() {
   const router = useRouter();
-
+  const photos = imgTile.concat( AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto,ActionPhoto);
   const handleImageClick = (game) => {
     const encodedTitle = encodeURIComponent(game.title); // URL-safe title
     router.push(`/GameDescription?title=${encodedTitle}`);
@@ -31,7 +31,7 @@ function HomeGames() {
         <Carousel />
 
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {ActionPhoto.map((item, index) => (
+          {photos.map((item, index) => (
             <div
               className="relative group animate__animated animate__backInDown"
               key={item.id || index}
@@ -57,146 +57,8 @@ function HomeGames() {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-center p-5">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {CardPhoto.map((item, index) => (
-            <div
-              className="relative group animate__animated animate__backInDown"
-              key={item.id || index}
-              onClick={() => handleImageClick(item)}
-            >
-              <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  className="bg-cover rounded-lg"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  width={500}
-                  height={300} />
-
-                <div
-                  style={{ borderRadius: '30%' }}
-                  className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
-                >
-                  <p className="text-lg text-white truncate font-lighter">{item.title}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="flex items-center justify-center p-5">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {RacingPhoto.map((item, index) => (
-            <div
-              className="relative group animate__animated animate__backInDown"
-              key={item.id || index}
-              onClick={() => handleImageClick(item)}
-            >
-              <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  className="bg-cover rounded-lg"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  width={500}
-                  height={300} />
-
-                <div
-                  style={{ borderRadius: '30%' }}
-                  className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
-                >
-                  <p className="text-lg text-white truncate font-lighter">{item.title}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="flex items-center justify-center p-5">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {AdventurePhoto.map((item, index) => (
-            <div
-              className="relative group animate__animated animate__backInDown"
-              key={item.id || index}
-              onClick={() => handleImageClick(item)}
-            >
-              <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  className="bg-cover rounded-lg"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  width={500}
-                  height={300} />
-
-                <div
-                  style={{ borderRadius: '30%' }}
-                  className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
-                >
-                  <p className="text-lg text-white truncate font-lighter">{item.title}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="flex items-center justify-center p-5">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {PuzzlePhoto.map((item, index) => (
-            <div
-              className="relative group animate__animated animate__backInDown"
-              key={item.id || index}
-              onClick={() => handleImageClick(item)}
-            >
-              <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  className="bg-cover rounded-lg"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  width={500}
-                  height={300} />
-
-                <div
-                  style={{ borderRadius: '30%' }}
-                  className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
-                >
-                  <p className="text-lg text-white truncate font-lighter">{item.title}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="flex items-center justify-center p-5">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {imgTile.map((item, index) => (
-            <div
-              className="relative group animate__animated animate__backInDown"
-              key={item.id || index}
-              onClick={() => handleImageClick(item)}
-            >
-              <div className="relative overflow-hidden rounded-[30px] w-36 h-36 cursor-pointer">
-                <Image
-                  src={item.img}
-                  alt={item.title}
-                  className="bg-cover rounded-lg"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  width={500}
-                  height={300} />
-
-                <div
-                  style={{ borderRadius: '30%' }}
-                  className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
-                >
-                  <p className="text-lg text-white truncate font-lighter">{item.title}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+     
+    
     </>
   );
 }
