@@ -14,7 +14,7 @@ import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
 import Carousel from '../Components/Carousel';
 import { PuzzlePhoto } from '../GamePages/PuzzlePage';
-
+import { AiOutlineLoading } from 'react-icons/ai'; 
 
 function GameDetails() {
   const searchParams = useSearchParams();
@@ -62,7 +62,7 @@ function GameDetails() {
 
         <div className="flex flex-col gap-6 md:flex-row">
           {/* Game Image */}
-          <div className="relative w-full h-40 overflow-hidden rounded-lg md:w-40">
+          <div className="relative w-[30%] h-50 overflow-hidden rounded-lg md:w-40">
             <Image
               src={game.img}
               alt={game.title}
@@ -162,7 +162,13 @@ function GameDetails() {
 
 export default function GameDescription() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <div className="flex justify-center items-center h-screen">
+          <AiOutlineLoading className="animate-spin text-4xl" />
+        </div>
+      }
+    >
       <GameDetails />
     </Suspense>
   );
