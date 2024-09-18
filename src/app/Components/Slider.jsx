@@ -31,7 +31,6 @@ const GameSlider = () => {
               src={src}
               alt={`Screenshot ${index + 1}`}
               className="bg-cover rounded-lg"
-              layout="responsive"
               width={500}
               height={300}
             />

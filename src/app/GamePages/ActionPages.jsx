@@ -13,7 +13,8 @@ export const ActionPhoto = [
         version: '1.0.47',
         time: 'Aug 20, 2024',
         Appto: 'https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214',
-        Playto: 'https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en_IN',
+        screenShot:[]
     }, {
 
         img: '/Action/Fire.jpg',

@@ -94,7 +94,7 @@ export const imgTile = [
         time: 'April 4, 2023',
         Appto: 'https://apps.apple.com/us/app/bloons-td-6/id1118115766',
         Playto: 'https://play.google.com/store/apps/details?id=com.ninjakiwi.bloonstd6&hl=en_US',
-        screenShot:[]
+        screenShot:['/Game/GameScreenshot/BloonsTD/BloonsTD1.webp','/Game/GameScreenshot/BloonsTD/BloonsTD2.webp','/Game/GameScreenshot/BloonsTD/BloonsTD3.webp','/Game/GameScreenshot/BloonsTD/BloonsTD4.webp','/Game/GameScreenshot/BloonsTD/BloonsTD5.webp','/Game/GameScreenshot/BloonsTD/BloonsTD6.webp','/Game/GameScreenshot/BloonsTD/BloonsTD7.webp','/Game/GameScreenshot/BloonsTD/BloonsTD8.webp']
     },
     {
         img: '/Game/Bowmasters_665dd7.jpg',
@@ -110,6 +110,6 @@ export const imgTile = [
         time: 'Jun 1, 2021',
         Appto: 'https://apps.apple.com/us/app/bowmasters-multiplayer-game/id1118431695',
         Playto: 'about:blank',
-        screenShot:[]
+        screenShot:['/Game/GameScreenshot/Bowmasters/Bowmaster1.webp','/Game/GameScreenshot/Bowmasters/Bowmaster2.webp','/Game/GameScreenshot/Bowmasters/Bowmaster3.webp','/Game/GameScreenshot/Bowmasters/Bowmaster4.webp','/Game/GameScreenshot/Bowmasters/Bowmaster5.webp','/Game/GameScreenshot/Bowmasters/Bowmaster6.webp','/Game/GameScreenshot/Bowmasters/Bowmaster7.webp','/Game/GameScreenshot/Bowmasters/Bowmaster8.webp']
     },
 ]
