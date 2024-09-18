@@ -1,6 +1,5 @@
 export const imgTile = [
     {
-        id: 2,
         img: '/Game/_Candy_Crush_Saga_2f0412.jpg',
         title: 'Candy Crush Saga',
         description: 'Candy Crush is a gemstone cube game developed by the British online game company King Digital. It has a synchronisation feature that allows progress to be switched between platforms. As of March 2013, Candy Crush has surpassed FarmVille 2 (Happy Farm) as the most popular game on Facebook, with 456 million monthly players This triple-play puzzle game is one of the most popular handheld games of all time, with more than a trillion total entries!',
@@ -12,9 +11,11 @@ export const imgTile = [
         fileSize: '77.7MB',
         version: '1.235.1.1',
         time: 'October 15, 2013',
+        Appto: 'https://apps.apple.com/us/app/candy-crush-saga/id553834731',
+        Playto: 'https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=None',
+        screenShot:['/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga1.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga2.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga3.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga4.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga5.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga6.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga7.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga8.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga9.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga10.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga11.webp','/Game/GameScreenshot/Candy_Crush_Saga/Candy_Crush_Saga12.webp']
     },
     {
-        id: 3,
         img: '/Game/Acrylic_Nails!_02fe03.jpg',
         title: 'Acrylic Nails!',
         description: 'Acrylic Nails! is a casual game for all girls. In this game, you will become a nail artist!',
@@ -25,10 +26,12 @@ export const imgTile = [
         play2: 'The gameplay is as simple as that, and because of that Acrylic Nails! is able to offer more gameplay opportunities for every player, allowing more players to experience nail art in the game and even help you learn a little about it.',
         fileSize: '99M',
         version: '1.0.2',
-        time: '26 july 2021'
+        time: '26 july 2021',
+        Appto: 'https://apps.apple.com/us/app/acrylic-nails/id1526638009',
+        Playto: 'https://play.google.com/store/apps/details?id=com.crazylabs.acrylic.nails&hl=None',
+        screenShot:['/Game/GameScreenshot/Acrylic_Nails/AcrylicNails1.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails2.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails3.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails4.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails5.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails6.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails7.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails8.webp','/Game/GameScreenshot/Acrylic_Nails/AcrylicNails9.webp']
     },
     {
-        id: 4,
         img: '/Game/Age_of_Z_Origins_Tower_Defense_ff8008.jpg',
         title: 'Age of Z Origins:Tower Defense',
         description: 'Form alliances with other like-minded commanders around the world, destroy your opponents and seize capitals, and you will become the leader of the world and lead the renaissance of humanity!',
@@ -39,10 +42,12 @@ export const imgTile = [
         play2: '3. Normal zombies are one man is enemy, mutated zombies are ten thousand: Witnesses have seen human-sized zombies as big as hills or zombie bears, and I fear there are even more terrifying beings whose existence is unknown to us because they have killed all the witnesses. These spokesmen of doom await your challenge!',
         fileSize: '50M',
         version: '1.2.87',
-        time: '6 August 2021'
+        time: '6 August 2021',
+        Appto: 'https://apps.apple.com/us/app/age-of-origins-tower-defense/id1376515087',
+        Playto: 'https://play.google.com/store/apps/details?id=com.camelgames.aoz&hl=None',
+        screenShot:['/Game/GameScreenshot/Tower_Defense/TowerDefense1.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense2.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense3.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense4.webp']
     },
     {
-        id: 5,
         img: '/Game/Angry_Birds_2_7e630c.jpg',
         title: 'Angry Birds 2',
         description1: 'New to Angry Birds? Iconic characters, hilarious experiences, and fun to play, come to Angry Birds 2. The fun gaming experience, happy leisure time, has captured the hearts of millions of players.',
@@ -54,10 +59,12 @@ export const imgTile = [
         play2: 'However, as the game progresses, more types of birds will be available, some of which can be used to perform special abilities by tapping the touch screen while flying through the air. For example, the blue bird (smallest, good at smashing ice) will split into three slightly smaller birds, the yellow bird (good at drilling wood) can accelerate the sprint, the black bird (bulky, good at destroying rocks) will explode, the white bird will drop an explodable egg and fly away at high speed up to the right, etc., and the green bird will pirouette. Piglets also come in a variety of sizes, with smaller pigs being relatively more fragile',
         fileSize: '320.1MB',
         version: '3.4.0',
-        time: 'June 08, 2021'
+        time: 'June 08, 2021',
+        Appto: 'https://apps.apple.com/us/app/angry-birds-2/id880047117',
+        Playto: 'https://play.google.com/store/apps/details?id=com.rovio.baba&hl=None',
+        screenShot:['/Game/GameScreenshot/Angry_Birds2/AngryBirds1.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds2.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds3.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds4.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds5.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds6.webp','/Game/GameScreenshot/Angry_Birds2/AngryBirds7.webp']
     },
     {
-        id: 6,
         img: '/Game/Angry_Birds_Match_3_b5cfa3.jpg',
         title: 'Angry Birds Match 3',
         description: 'Explore the world and collect cubs in this adorable three-puzzle game!',
@@ -68,10 +75,12 @@ export const imgTile = [
         play2: 'Green pigs, wooden boxes, TNT explosives and other elements that players are very familiar with are all present in the game.',
         fileSize: '135M',
         version: '5.4.0',
-        time: 'October 11, 2021'
+        time: 'October 11, 2021',
+        Appto: 'https://apps.apple.com/us/app/angry-birds-2/id880047117',
+        Playto: 'https://play.google.com/store/apps/details?id=com.rovio.abmatch3&hl=en&gl=us',
+        screenShot:['/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch1.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch2.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch3.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch4.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch5.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch6.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch7.webp','/Game/GameScreenshot/AngryBirdsMatc_3/AngryBirdsMatch8.webp']
     },
     {
-        id: 7,
         img: '/Game/Bloons_TD_6_b13a64.jpg',
         title: 'Bloons TD 6',
         description: 'Bloons TD 6 (BTD6) is a popular tower defense game developed and published by Ninja Kiwi. The game is available on multiple platforms, including PC, mobile, and console. The game has gained a massive following due to its unique gameplay, stunning graphics, and challenging levels.',
@@ -82,10 +91,12 @@ export const imgTile = [
         play2: '3.Choose Your Towers Wisely: There are many different types of towers to choose from, each with its own strengths and weaknesses. Some towers are better suited for certain types of bloons, while others are more effective against specific bloon types. It is important to experiment with different towers to find the best strategy for each level.',
         fileSize: 'April 4, 2023',
         version: 'PC',
-        time: 'April 4, 2023'
+        time: 'April 4, 2023',
+        Appto: 'https://apps.apple.com/us/app/bloons-td-6/id1118115766',
+        Playto: 'https://play.google.com/store/apps/details?id=com.ninjakiwi.bloonstd6&hl=en_US',
+        screenShot:[]
     },
     {
-        id: 8,
         img: '/Game/Bowmasters_665dd7.jpg',
         title: 'Bowmasters',
         description: 'Bowmasters is a sizzling aim and shoot game that has a wealth of content for you:.',
@@ -96,6 +107,9 @@ export const imgTile = [
         play2: 'Countless rewards for your skills!',
         fileSize: '691.1 MB',
         version: '2.15.5',
-        time: 'Jun 1, 2021'
+        time: 'Jun 1, 2021',
+        Appto: 'https://apps.apple.com/us/app/bowmasters-multiplayer-game/id1118431695',
+        Playto: 'about:blank',
+        screenShot:[]
     },
 ]

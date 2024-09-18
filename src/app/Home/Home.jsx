@@ -1,6 +1,6 @@
 'use client'; // Required for using hooks in the App Router
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation'; // 'next/navigation' in Next.js 13+
 import { imgTile } from './gameTitle'; // Adjust the path
@@ -9,31 +9,60 @@ import { CardPhoto } from '../GamePages/CardPage';
 import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { PuzzlePhoto } from '../GamePages/PuzzlePage';
 import { RacingPhoto } from '../GamePages/RacingPage';
-
-
-import Carousel from '../Components/Carousel'
-
-
+import { useSearch } from '../Components/SerchContext';
+import Carousel from '../Components/Carousel';
 import 'animate.css';
+import { RiCloseLine } from 'react-icons/ri';
 
 function HomeGames() {
   const router = useRouter();
-  const photos = imgTile.concat( AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto,ActionPhoto);
+  const { isSearchVisible, setIsSearchVisible } = useSearch();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const photos = imgTile.concat(AdventurePhoto, CardPhoto, RacingPhoto, PuzzlePhoto, ActionPhoto);
+
   const handleImageClick = (game) => {
     const encodedTitle = encodeURIComponent(game.title); // URL-safe title
     router.push(`/GameDescription?title=${encodedTitle}`);
   };
 
-  return (
-    <>
-      {/* Action */}
-      <div className="flex flex-col  items-center justify-center p-5">
-        <Carousel />
+  // Filter photos based on search query
+  const filteredPhotos = photos.filter((photo) =>
+    photo.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {photos.map((item, index) => (
+  const clearSearch = () => {
+    setIsSearchVisible(false); // Hide search bar
+  };
+
+  return (
+    <div className="flex flex-col items-center justify-center p-5">
+      {/* Show search bar if isSearchVisible is true */}
+      {isSearchVisible && (
+        <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__heartBeat">
+          <input
+            type="text"
+            placeholder="Search game"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full text-[#69a2ff] p-2 pl-10 border border-[#ff56f8] focus:bg-none rounded-lg  focus:outline-none"
+          />
+          {isSearchVisible && (
+            <RiCloseLine
+              className="absolute text-[#ff56f8] transform -translate-y-1/2 cursor-pointer top-1/2 left-3"
+              onClick={clearSearch}
+            />
+          )}
+        </div>
+      )}
+
+      <Carousel />
+
+      <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        {filteredPhotos.length > 0 ? (
+          filteredPhotos.map((item, index) => (
             <div
-              className="relative group animate__animated animate__backInDown"
+              className="relative group animate__animated animate__backInUp "
               key={item.id || index}
               onClick={() => handleImageClick(item)}
             >
@@ -44,8 +73,8 @@ function HomeGames() {
                   className="bg-cover rounded-lg"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   width={500}
-                  height={300} />
-
+                  height={300}
+                />
                 <div
                   style={{ borderRadius: '30%' }}
                   className="absolute inset-x-0 bottom-0 flex items-center justify-center p-2 bg-opacity-80 bg-[#ff56f8] opacity-0 group-hover:opacity-100 animate__animated group-hover:animate__backInUp"
@@ -54,12 +83,14 @@ function HomeGames() {
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          ))
+        ) : (
+          
+          <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>No game found</h1>
+
+        )}
       </div>
-     
-    
-    </>
+    </div>
   );
 }
 

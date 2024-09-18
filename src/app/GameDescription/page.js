@@ -3,7 +3,6 @@
 import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation'; // For extracting query params
 import Image from 'next/image';
-import { imgTile } from '../Home/gameTitle';
 import { ActionPhoto } from '../GamePages/ActionPages'; // Adjust the path to gameTitle
 import { useRouter } from 'next/navigation';
 import { FaApple } from "react-icons/fa";
@@ -15,6 +14,8 @@ import { RacingPhoto } from '../GamePages/RacingPage';
 import Carousel from '../Components/Carousel';
 import { PuzzlePhoto } from '../GamePages/PuzzlePage';
 import { AiOutlineLoading } from 'react-icons/ai'; 
+import GameSlider from '../Components/Slider.jsx'
+import { imgTile } from '../Home/gameTitle'; // Importing the image data
 
 function GameDetails() {
   const searchParams = useSearchParams();
@@ -67,10 +68,10 @@ function GameDetails() {
               src={game.img}
               alt={game.title}
               className="bg-cover rounded-lg"
-              layout="responsive" // This sets the image to be responsive.
+              layout="responsive" 
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              width={500} // Provide a width for responsive images.
-              height={300} // Provide a height for responsive images.
+              width={500} 
+              height={300} 
             />
           </div>
 
@@ -138,6 +139,7 @@ function GameDetails() {
         </div>
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>Screenshot</h1>
         <hr className="w-full border-gray-300 border-t-1" />
+        <GameSlider/>
 
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>How To Play</h1>
         <hr className="w-full border-gray-300 border-t-1" />
@@ -164,8 +166,8 @@ export default function GameDescription() {
   return (
     <Suspense
       fallback={
-        <div className="flex justify-center items-center h-screen">
-          <AiOutlineLoading className="animate-spin text-4xl" />
+        <div className="flex items-center justify-center h-screen">
+          <AiOutlineLoading className="text-4xl animate-spin" />
         </div>
       }
     >

@@ -1,19 +1,25 @@
+// Header.js
 'use client';
-import React, { useState } from 'react';
+
+import React from 'react';
 import Image from 'next/image';
 import { PiMagnifyingGlass } from 'react-icons/pi';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { useRouter } from 'next/navigation';
+import { useSearch } from './SerchContext';
 
 function Header() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
   const router = useRouter();
+  const { isSearchVisible, toggleSearch ,setIsSearchVisible } = useSearch(); // Use the context
 
   const handleNavigation = (path) => {
     router.push(path);
-    if (isSidebarOpen === true) {
+    if (isSidebarOpen) {
       setIsSidebarOpen(false);
     }
+
+    setIsSearchVisible(false)
   };
 
   const toggleSidebar = () => {
@@ -64,7 +70,7 @@ function Header() {
             <p className='hover:bg-[#ff56f8] p-1 rounded-lg hover:text-white transition-all duration-300' onClick={() => handleNavigation('/Pages/Racing')}>Racing</p>
             <p className='hover:bg-[#ff56f8] p-1 rounded-lg hover:text-white transition-all duration-300' onClick={() => handleNavigation('/Pages/Puzzle')}>Puzzle</p>
           </div>
-          <div className='flex items-center justify-center bg-[#ff56f8] rounded-full p-2 cursor-pointer lg:mt-[-2px] mt-[-15px]'>
+          <div className='flex items-center justify-center bg-[#ff56f8] rounded-full p-2 cursor-pointer lg:mt-[-2px] mt-[-15px]' onClick={toggleSearch}>
             <PiMagnifyingGlass className='text-xl font-extrabold text-white ' />
           </div>
         </div>
