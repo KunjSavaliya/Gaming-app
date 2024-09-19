@@ -6,13 +6,16 @@ import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
 import { PuzzlePhoto } from '../GamePages/PuzzlePage';
-
+import { useRouter } from 'next/navigation';
 import { imgTile } from '../Home/gameTitle';
+import { useSearch } from './SerchContext';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [itemsPerPage, setItemsPerPage] = useState(7); // Default number of images
-
+  const [itemsPerPage, setItemsPerPage] = useState(7);
+  const { isSearchVisible, setIsSearchVisible } = useSearch();
+   // Default number of images
+  const router = useRouter();
   const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto)
 
   // Update the number of images per page based on screen size
@@ -27,7 +30,7 @@ const Carousel = () => {
       } else if (window.innerWidth >= 1024 && window.innerWidth < 1280) {
         setItemsPerPage(9); // Large screens
       } else {
-        setItemsPerPage(9); // Extra-large screens
+        setItemsPerPage(9); 
       }
     };
 
@@ -47,13 +50,18 @@ const Carousel = () => {
 
     return () => clearInterval(interval);
   }, [photos.length, itemsPerPage]);
-
+  
+  const handleImageClick = (game) => {
+    setIsSearchVisible(false)
+    const encodedTitle = encodeURIComponent(game.title);
+    router.push(`/GameDescription?title=${encodedTitle}`);
+  };
   return (
     <div className="relative mb-6">
       {/* Image grid */}
       <div className="relative grid grid-cols-3 gap-6 transition-transform duration-500 ease-in-out sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9">
         {photos.slice(currentIndex, currentIndex + itemsPerPage).map((image, index) => (
-          <div key={index} className="flex-shrink-0 w-full">
+          <div key={index} className="flex-shrink-0 w-full"   onClick={() => handleImageClick(image)}>
             <div className="relative overflow-hidden rounded-[30px] w-[70px] h-[70px] cursor-pointer">
               <Image
                 src={image.img}

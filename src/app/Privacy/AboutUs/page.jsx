@@ -11,14 +11,16 @@ function AboutUs() { // Get the title from the URL
         <hr className="w-full border-gray-300 border-t-1" />
         <div className="mt-2 ">
           <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
-            Welcome to pupulargamesforyou.com, your ultimate destination for the most popular and engaging games on the internet. We&apos;re passionate about bringing you a curated collection of the hottest, most addictive, and most entertaining games that the online world has to offer. At pupulargamesforyou.com, we believe that gaming should be accessible, fun, and social. Whether you&apos;re a casual player looking for a quick distraction or a dedicated gamer seeking your next obsession, our diverse library of games has something for everyone. From pulse-pounding action titles to brain-teasing puzzles, from nostalgic classics to cutting-edge releases, we&apos;ve handpicked the best of the best to ensure your gaming experience is always top-notch.
-            <br />
-            <br /> 
-            Our mission is to create a vibrant community where gamers of all levels can come together, share experiences, and discover new favorites. We regularly update our selection to keep up with the latest trends and hidden gems in the gaming world, ensuring that you always have something fresh and exciting to play.
-            <br />
-            <br />
-            At pupulargamesforyou.com, we&apos;re more than just a gaming site – we&apos;re your go-to resource for all things related to popular online games. Our team of gaming enthusiasts works tirelessly to provide you with insightful reviews, helpful tips and tricks, and the latest news from the gaming industry. Whether you&apos;re looking to kill a few minutes or lose yourself for hours in an immersive gaming experience, pupulargamesforyou.com is here to satisfy your gaming cravings. Join our community today and dive into a world where fun knows no bounds. Get ready to play, compete, and connect – your next favorite game is just a click away!
+          Welcome to onlinegameforyou, your go-to platform for safe and reliable game downloads. We offer a vast collection of top-rated games across multiple genres, including action, adventure, puzzles, and more. At onlinegameforyou, we prioritize your safety and gaming experience by providing direct download links from trusted sources like the App Store and Google Play, ensuring all downloads are secure and free from malware. Our mission is to connect gamers worldwide with the best games, offering seamless downloads and the latest updates. Beyond downloading, we foster a community of passionate gamers who share tips, experiences, and the joy of gaming. Whether you're a casual player or a dedicated gamer, you'll find your next favorite game here. Explore, download, and start playing today with onlinegameforyou!
+           
           </h2>
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+          At onlinegameforyou, we are committed to delivering the best gaming experience by offering a diverse selection of high-quality games for all types of players. Whether you're into intense action-packed adventures, mind-bending puzzles, or captivating strategy games, our platform provides easy access to the latest and most popular games from trusted sources like the App Store and Google Play. We ensure that all our downloads are 100% secure, virus-free, and come directly from official platforms, so you can enjoy your gaming without worries. Our team of gaming enthusiasts constantly updates the site to keep up with industry trends and new releases, ensuring you always have fresh content to explore.
+            </h2>
+
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            At onlinegameforyou, we go beyond just downloading games—we’re creating a hub where gamers can come together to discover new titles, share insights, and stay connected with the gaming community. Our user-friendly platform makes it easy to browse, download, and dive into your favorite games without hassle. Whether you’re looking to pass time with a quick mobile game or immerse yourself in a deep gaming experience, onlinegameforyou is here to be your one-stop destination for all things gaming. Join our growing community and experience gaming like never before!
+              </h2>
         </div>
       </div>
     </div>

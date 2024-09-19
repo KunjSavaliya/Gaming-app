@@ -23,12 +23,10 @@ function Footer() {
                         <h1 className='font-light text-[#696969] cursor-pointer' onClick={() => handleNavigation('/Privacy/TermsOfUse')}>Terms of Use</h1>
 
                     </div>
-                    <h1 className='font-light text-[#696969] mt-6'>Copyright © 2024 populargamesforyou.com</h1>
+                    <h1 className='font-light text-[#696969] mt-6'>Copyright © 2024 onlinegameforyou.com</h1>
 
                 </div>
             </div>
-            <hr className="w-full  border-gray-300 border-t-1" />
-            <h1 className='font-light text-[#696969] text-center p-2'>This site uses Google AdSense ad intent links. AdSense automatically generates these links and they may help creators earn money.</h1>
 
 
         </>

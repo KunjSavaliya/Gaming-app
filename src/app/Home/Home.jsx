@@ -22,6 +22,7 @@ function HomeGames() {
   const photos = imgTile.concat(AdventurePhoto, CardPhoto, RacingPhoto, PuzzlePhoto, ActionPhoto);
 
   const handleImageClick = (game) => {
+    setIsSearchVisible(false)
     const encodedTitle = encodeURIComponent(game.title); // URL-safe title
     router.push(`/GameDescription?title=${encodedTitle}`);
   };
