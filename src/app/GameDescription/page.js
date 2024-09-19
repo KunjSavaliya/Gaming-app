@@ -63,38 +63,45 @@ function GameDetails() {
 
         <div className="flex flex-col gap-6 md:flex-row">
           {/* Game Image */}
-          <div className="relative w-[30%] h-50 overflow-hidden rounded-lg md:w-40">
-            <Image
-              src={game.img}
-              alt={game.title}
-              className="bg-cover rounded-lg"
-              layout="responsive" 
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              width={500} 
-              height={300} 
-            />
-          </div>
+         
 
           {/* Game Details */}
           <div className="flex-1 font-light text-[#696969]">
-            <div className="flex flex-col justify-around gap-6 mb-6 md:flex-row">
-              <div className="flex flex-col gap-2">
-                <h1 className="text-2xl text-[#69a2ff] mb-4">{game?.title}</h1>
-                <div className='flex flex-col gap-3 md:flex-row md:gap-6'>
-                  <div>
-                    <h2 className="font-semibold">File Size:</h2>
-                    <p>{game?.fileSize}</p>
-                  </div>
-                  <div>
-                    <h2 className="font-semibold">Current Version:</h2>
-                    <p>{game?.version}</p>
-                  </div>
-                  <div>
-                    <h2 className="font-semibold">Updated Time:</h2>
-                    <p>{game?.time}</p>
-                  </div>
-                </div>
-              </div>
+  <div className="flex flex-col gap-6 md:flex-row">
+    {/* Game Image */}
+    <div className="relative w-[50%] h-auto overflow-hidden rounded-lg sm:w-1/2 md:w-1/3 lg:w-1/4">
+      <Image
+        src={game.img}
+        alt={game.title}
+        className="bg-cover rounded-lg"
+        layout="responsive"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        width={500}
+        height={300}
+      />
+    </div>
+
+    {/* Game Details */}
+    <div className="flex flex-col gap-2 md:flex-1">
+      <h1 className="text-2xl text-[#69a2ff] mb-4">{game?.title}</h1>
+      <div className="flex gap-3 md:flex-row md:gap-6">
+        <div>
+          <h2 className="font-semibold">File Size:</h2>
+          <p>{game?.fileSize}</p>
+        </div>
+        <div>
+          <h2 className="font-semibold">Current Version:</h2>
+          <p>{game?.version}</p>
+        </div>
+        <div>
+          <h2 className="font-semibold">Updated Time:</h2>
+          <p>{game?.time}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
               {/* Download Links */}
               <div className="flex flex-col gap-4 cursor-pointer">
@@ -113,8 +120,7 @@ function GameDetails() {
                   <p>Link Provided by Google Store</p>
                 </div>
               </div>
-            </div>
-          </div>
+           
         </div>
 
         <div className="mt-8 ">
@@ -127,13 +133,13 @@ function GameDetails() {
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>Description</h1>
         <hr className="w-full border-gray-300 border-t-1" />
         <div className="mt-2 ">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.description}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.description1}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.description2}
           </h2>
         </div>
@@ -144,13 +150,13 @@ function GameDetails() {
         <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>How To Play</h1>
         <hr className="w-full border-gray-300 border-t-1" />
         <div className="mt-2 ">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.play}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.play1}
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
             {game?.play2}
           </h2>
         </div>

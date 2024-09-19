@@ -45,7 +45,7 @@ export const imgTile = [
         time: '6 August 2021',
         Appto: 'https://apps.apple.com/us/app/age-of-origins-tower-defense/id1376515087',
         Playto: 'https://play.google.com/store/apps/details?id=com.camelgames.aoz&hl=None',
-        screenShot:['/Game/GameScreenshot/Tower_Defense/TowerDefense1.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense2.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense3.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense4.webp']
+        screenShot:['/Game/GameScreenshot/Tower_Defense/TowerDefense1.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense2.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense3.webp','/Game/GameScreenshot/Tower_Defense/TowerDefense3.webp']
     },
     {
         img: '/Game/Angry_Birds_2_7e630c.jpg',

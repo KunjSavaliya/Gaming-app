@@ -25,7 +25,7 @@ const GameSlider = () => {
         {gameScreenshot?.screenShot?.map((src, index) => (
           <div
             key={index}
-            className="min-w-[180px] sm:min-w-[200px] md:min-w-[180px] lg:min-w-[200px] xl:min-w-[200px]"
+            className="min-w-[250px] sm:min-w-[250px] md:min-w-[250px] lg:min-w-[280px] xl:min-w-[300px]"
           >
             <Image
               src={src}
