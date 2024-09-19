@@ -35,11 +35,12 @@ function HomeGames() {
     setIsSearchVisible(false); // Hide search bar
   };
 
+  const length = filteredPhotos?.length
   return (
     <div className="flex flex-col items-center justify-center p-5">
       {/* Show search bar if isSearchVisible is true */}
       {isSearchVisible && (
-        <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__heartBeat">
+        <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__fadeInDown">
           <input
             type="text"
             placeholder="Search game"
@@ -85,11 +86,11 @@ function HomeGames() {
             </div>
           ))
         ) : (
-          
-          <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>No game found</h1>
-
+          <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'></h1>
         )}
+
       </div>
+      <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>{length === 0 && "No game found"}</h1>
     </div>
   );
 }

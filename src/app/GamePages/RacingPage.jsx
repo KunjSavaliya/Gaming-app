@@ -12,7 +12,8 @@ export const RacingPhoto = [
         version: '24.0.6a',
         time: '26 Aug 2024',
         Appto: 'https://apps.apple.com/ph/app/asphalt-legends-unite/id805603214',
-        Playto: 'https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&hl=en_IN&pli=1'
+        Playto: 'https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&hl=en_IN&pli=1',
+        screenShot:['/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite2.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite3.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite1.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite4.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite5.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite6.webp','/Racing/RacingScreenshot/AsphaltLegendsUnite/AsphaltLegendsUnite7.webp']
     }, {
         img: '/Racing/CarXDriftRacing2.webp',
         title: 'CarX Drift Racing 2',
@@ -26,7 +27,8 @@ export const RacingPhoto = [
         version: '1.33.0',
         time: '7 Sept 2024',
         Appto: 'https://apps.apple.com/ph/app/carx-drift-racing-2/id1198510863',
-        Playto: 'https://play.google.com/store/apps/details?id=com.carxtech.carxdr2&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.carxtech.carxdr2&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/CarXDrift/CarXDrift1.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift2.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift3.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift4.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift5.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift6.webp','/Racing/RacingScreenshot/CarXDrift/CarXDrift7.webp']
     }, {
         img: '/Racing/needforspeed.webp',
         title: 'Need for Speed™ No Limits',
@@ -40,7 +42,8 @@ export const RacingPhoto = [
         version: '7.9.0',
         time: '5 Sept 2024',
         Appto: 'https://apps.apple.com/ph/app/need-for-speed-no-limits/id883393043',
-        Playto: 'https://play.google.com/store/apps/details?id=com.ea.game.nfs14_row&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.ea.game.nfs14_row&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed1.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed2.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed3.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed4.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed5.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed6.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed7.webp','/Racing/RacingScreenshot/NeedforSpeed/NeedforSpeed8.webp']
     }, {
         img: '/Racing/realracing.webp',
         title: 'Real Racing 3',
@@ -54,7 +57,8 @@ export const RacingPhoto = [
         version: '12.6.8',
         time: '9 Sept 2024',
         Appto: 'https://apps.apple.com/ph/app/real-racing-3/id556164350',
-        Playto: 'https://play.google.com/store/apps/details?id=com.ea.games.r3_row&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.ea.games.r3_row&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/RealRacing3/RealRacing31.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing32.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing33.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing34.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing35.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing36.webp','/Racing/RacingScreenshot/RealRacing3/RealRacing37.webp']
     }, {
         img: '/Racing/MadOut2GrandAutoRacing.webp',
         title: 'MadOut 2: Grand Auto Racing',
@@ -68,7 +72,8 @@ export const RacingPhoto = [
         version: '14.03',
         time: '11 Sept 2024',
         Appto: 'https://apps.apple.com/ph/app/madout-2-grand-auto-racing/id1214765807',
-        Playto: 'https://play.google.com/store/apps/details?id=com.MadOut.BIG&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.MadOut.BIG&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/MadOut2/MadOut21.webp','/Racing/RacingScreenshot/MadOut2/MadOut22.webp','/Racing/RacingScreenshot/MadOut2/MadOut23.webp','/Racing/RacingScreenshot/MadOut2/MadOut24.webp','/Racing/RacingScreenshot/MadOut2/MadOut25.webp','/Racing/RacingScreenshot/MadOut2/MadOut26.webp','/Racing/RacingScreenshot/MadOut2/MadOut27.webp','/Racing/RacingScreenshot/MadOut2/MadOut28.webp']
     }, {
         img: '/Racing/HillClimbRacing2.webp',
         title: 'Hill Climb Racing 2',
@@ -82,7 +87,8 @@ export const RacingPhoto = [
         version: '1.62.3',
         time: '6 Sept 2024',
         Appto: 'https://apps.apple.com/ph/app/hill-climb-racing-2/id1146465836',
-        Playto: 'https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/HillClimb/HillClimb1.webp','/Racing/RacingScreenshot/HillClimb/HillClimb2.webp','/Racing/RacingScreenshot/HillClimb/HillClimb3.webp','/Racing/RacingScreenshot/HillClimb/HillClimb4.webp','/Racing/RacingScreenshot/HillClimb/HillClimb5.webp','/Racing/RacingScreenshot/HillClimb/HillClimb6.webp','/Racing/RacingScreenshot/HillClimb/HillClimb7.webp','/Racing/RacingScreenshot/HillClimb/HillClimb8.webp']
     }, {
         img: '/Racing/RacingFever.webp',
         title: 'Racing Fever',
@@ -96,7 +102,8 @@ export const RacingPhoto = [
         version: '1.7.1',
         time: '11 Oct 2023',
         Appto: 'https://apps.apple.com/ph/app/racing-fever/id978359164',
-        Playto: 'https://play.google.com/store/apps/details?id=mobi.gameguru.racingfever&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=mobi.gameguru.racingfever&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/RacingFever/RacingFever1.webp','/Racing/RacingScreenshot/RacingFever/RacingFever2.webp','/Racing/RacingScreenshot/RacingFever/RacingFever3.webp','/Racing/RacingScreenshot/RacingFever/RacingFever4.webp','/Racing/RacingScreenshot/RacingFever/RacingFever5.webp','/Racing/RacingScreenshot/RacingFever/RacingFever6.webp','/Racing/RacingScreenshot/RacingFever/RacingFever7.webp',]
     }, {
         img: '/Racing/csrRacing.webp',
         title: 'CSR Classics',
@@ -110,7 +117,8 @@ export const RacingPhoto = [
         version: '3.1.3',
         time: '21 Feb 2024',
         Appto: 'https://apps.apple.com/ph/app/csr-classics/id598603610',
-        Playto: 'https://play.google.com/store/apps/details?id=com.naturalmotion.csrclassics&hl=en_IN'
+        Playto: 'https://play.google.com/store/apps/details?id=com.naturalmotion.csrclassics&hl=en_IN',
+        screenShot:['/Racing/RacingScreenshot/CSR/CSR1.webp','/Racing/RacingScreenshot/CSR/CSR2.webp','/Racing/RacingScreenshot/CSR/CSR3.webp','/Racing/RacingScreenshot/CSR/CSR4.webp','/Racing/RacingScreenshot/CSR/CSR5.webp','/Racing/RacingScreenshot/CSR/CSR6.webp','/Racing/RacingScreenshot/CSR/CSR7.webp']
     }, {
         img: '/Racing/RDS.webp',
         title: 'Real Driving School',
@@ -124,7 +132,8 @@ export const RacingPhoto = [
         version: '1.10.42',
         time: 'Aug 15, 2020',
         Appto: 'https://apps.apple.com/us/app/real-driving-school/id1499207656',
-        Playto: 'https://play.google.com/store/apps/details?id=com.qizz.rds&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.qizz.rds&hl=en-US',
+        screenShot:['/Racing/RacingScreenshot/DrivingSchool/DrivingSchool1.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool2.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool3.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool1.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool5.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool6.webp','/Racing/RacingScreenshot/DrivingSchool/DrivingSchool7.webp']
     }, {
         img: '/Racing/AssolutoRacing.webp',
         title: 'Assoluto Racing',
@@ -138,7 +147,8 @@ export const RacingPhoto = [
         version: '2.16.4',
         time: 'Jul 16, 2024 ',
         Appto: 'https://apps.apple.com/us/app/assoluto-racing/id1055375459',
-        Playto: 'https://play.google.com/store/apps/details?id=com.infinityvector.assolutoracing&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.infinityvector.assolutoracing&hl=en-US',
+        screenShot:['/Racing/RacingScreenshot/Assoluto/Assoluto1.webp','/Racing/RacingScreenshot/Assoluto/Assoluto2.webp','/Racing/RacingScreenshot/Assoluto/Assoluto3.webp','/Racing/RacingScreenshot/Assoluto/Assoluto4.webp','/Racing/RacingScreenshot/Assoluto/Assoluto5.webp','/Racing/RacingScreenshot/Assoluto/Assoluto6.webp','/Racing/RacingScreenshot/Assoluto/Assoluto7.webp']
     },
 
 

@@ -13,7 +13,8 @@ export const AdventurePhoto = [
         version: '5.0.0_26041933_26161852',
         time: 'Aug 18, 2024',
         Appto: 'https://apps.apple.com/in/app/genshin-impact-natlan-launch/id1517783697?platform=iphone',
-        Playto: 'https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en_US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en_US',
+        screenShot:['/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact1.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact2.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact3.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact4.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact5.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact6.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact7.webp','/Adventure/AdventureScreenshot/GenshinImpact/GenshinImpact8.webp']
     },
     {
 
@@ -29,7 +30,8 @@ export const AdventurePhoto = [
         version: '1.19.22.01',
         time: 'September 13, 2012',
         Appto: 'https://apps.apple.com/us/app/minecraft/id479516143',
-        Playto: 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=zh&gl=US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=zh&gl=US',
+        screenShot:['/Adventure/AdventureScreenshot/Minecraft/Minecraft1.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft2.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft3.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft4.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft5.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft6.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft7.webp','/Adventure/AdventureScreenshot/Minecraft/Minecraft8.webp']
     },
     {
 
@@ -45,7 +47,8 @@ export const AdventurePhoto = [
         version: '83.0',
         time: 'Sep 2, 2024',
         Appto: 'https://apps.apple.com/us/app/the-witcher-monster-slayer/id1550735604',
-        Playto: 'https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter&hl=en-US',
+        screenShot:['/Adventure/AdventureScreenshot/TheWitcher/TheWitcher1.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher2.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher3.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher4.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher5.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher6.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher7.webp','/Adventure/AdventureScreenshot/TheWitcher/TheWitcher8.webp']
     },   {
 
         img: '/Adventure/lifeisstrange.webp',
@@ -60,7 +63,8 @@ export const AdventurePhoto = [
         version: '1.00.314.6',
         time: 'Nov 17, 2023',
         Appto: 'https://apps.apple.com/in/app/life-is-strange/id1180101534',
-        Playto: 'https://play.google.com/store/apps/details?id=com.squareenix.lis'
+        Playto: 'https://play.google.com/store/apps/details?id=com.squareenix.lis',
+        screenShot:['/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange1.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange2.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange3.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange4.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange5.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange6.webp','/Adventure/AdventureScreenshot/LifeisStrange/LifeisStrange7.webp']
     },   {
 
         img: '/Adventure/MonumentValley.webp',
@@ -75,7 +79,8 @@ export const AdventurePhoto = [
         version: '3.4.109',
         time: 'Oct 24, 2023',
         Appto: 'https://apps.apple.com/us/app/monument-valley/id728293409',
-        Playto: 'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley'
+        Playto: 'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley',
+        screenShot:['/Adventure/AdventureScreenshot/MonumentValley/MonumentValley1.webp','/Adventure/AdventureScreenshot/MonumentValley/MonumentValley2.webp','/Adventure/AdventureScreenshot/MonumentValley/MonumentValley3.webp','/Adventure/AdventureScreenshot/MonumentValley/MonumentValley4.webp','/Adventure/AdventureScreenshot/MonumentValley/MonumentValley5.webp','/Adventure/AdventureScreenshot/MonumentValley/MonumentValley6.webp']
     },   {
 
         img: '/Adventure/AltoOdyssey.webp',
@@ -90,7 +95,8 @@ export const AdventurePhoto = [
         version: '1.0.29',
         time: 'Jun 12, 2024',
         Appto: 'https://apps.apple.com/us/app/altos-odyssey/id1182456409',
-        Playto: 'https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey'
+        Playto: 'https://play.google.com/store/apps/details?id=com.noodlecake.altosodyssey',
+        screenShot:['/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey1.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey2.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey3.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey4.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey5.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey6.webp','/Adventure/AdventureScreenshot/AltoOdyssey/AltoOdyssey7.webp']
     },   {
 
         img: '/Adventure/theroom.webp',
@@ -105,7 +111,8 @@ export const AdventurePhoto = [
         version: '1.09',
         time: 'Apr 17, 2023',
         Appto: 'https://apps.apple.com/us/app/the-room/id552039496',
-        Playto: 'https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom'
+        Playto: 'https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom',
+        screenShot:['/Adventure/AdventureScreenshot/TheRoom/TheRoom1.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom2.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom3.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom4.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom5.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom6.webp','/Adventure/AdventureScreenshot/TheRoom/TheRoom7.webp']
     },   {
 
         img: '/Adventure/showfight.webp',
@@ -120,7 +127,8 @@ export const AdventurePhoto = [
         version: '1.38.2',
         time: 'Jul 23, 2024',
         Appto: 'https://apps.apple.com/us/app/shadow-fight-3-rpg-fighting/id964827011',
-        Playto: 'https://play.google.com/store/apps/details?id=com.nekki.shadowfight3'
+        Playto: 'https://play.google.com/store/apps/details?id=com.nekki.shadowfight3',
+        screenShot:['/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight31.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight32.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight33.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight34.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight35.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight36.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight37.webp','/Adventure/AdventureScreenshot/ShadowFight3/ShadowFight38.webp']
     },   {
 
         img: '/Adventure/Grimvalor.webp',
@@ -135,7 +143,8 @@ export const AdventurePhoto = [
         version: '1.2.6',
         time: 'Aug 30, 2024',
         Appto: 'https://apps.apple.com/us/app/grimvalor/id1369179088',
-        Playto: 'https://play.google.com/store/apps/details?id=com.direlight.grimvalor'
+        Playto: 'https://play.google.com/store/apps/details?id=com.direlight.grimvalor',
+        screenShot:['/Adventure/AdventureScreenshot/Grimvalor/Grimvalor1.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor2.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor3.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor4.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor5.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor6.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor7.webp','/Adventure/AdventureScreenshot/Grimvalor/Grimvalor8.webp']
     },   {
 
         img: '/Adventure/OXENFREE.webp',
@@ -150,7 +159,8 @@ export const AdventurePhoto = [
         version: '4.1.4',
         time: 'Oct 17, 2023',
         Appto: 'https://apps.apple.com/us/app/oxenfree-netflix-edition/id1613438096',
-        Playto: 'https://play.google.com/store/apps/details?id=com.netflix.NGP.Oxenfree'
+        Playto: 'https://play.google.com/store/apps/details?id=com.netflix.NGP.Oxenfree',
+        screenShot:['/Adventure/AdventureScreenshot/OXENFREE/OXENFRE2.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE1.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE3.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE4.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE5.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE6.webp','/Adventure/AdventureScreenshot/OXENFREE/OXENFRE7.webp']
     }
      
 ]

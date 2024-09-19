@@ -9,24 +9,26 @@ import { useSearch } from '../../Components/SerchContext';
 import { RiCloseLine } from 'react-icons/ri';
 import 'animate.css';
 function Card() {
-    const router = useRouter();
-    const { isSearchVisible, setIsSearchVisible } = useSearch();
+  const router = useRouter();
+  const { isSearchVisible, setIsSearchVisible } = useSearch();
 
-    const [searchQuery, setSearchQuery] = useState('');
-    const handleImageClick = (game) => {
-        const encodedTitle = encodeURIComponent(game.title);
-        router.push(`/GameDescription?title=${encodedTitle}`);
-    };
-    const clearSearch = () => {
-        setIsSearchVisible(false); // Hide search bar
-      };
-      const filteredPhotos = RacingPhoto.filter((photo) =>
-        photo.title.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    return (
-        <div className="flex flex-col items-center justify-center p-5  mb-[17%]">
-           {isSearchVisible && (
-        <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__heartBeat">
+  const [searchQuery, setSearchQuery] = useState('');
+  const handleImageClick = (game) => {
+    const encodedTitle = encodeURIComponent(game.title);
+    router.push(`/GameDescription?title=${encodedTitle}`);
+  };
+  const clearSearch = () => {
+    setIsSearchVisible(false); // Hide search bar
+  };
+  const filteredPhotos = RacingPhoto.filter((photo) =>
+    photo.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+  const length = filteredPhotos?.length
+
+  return (
+    <div className="flex flex-col items-center justify-center p-5  mb-[17%]">
+      {isSearchVisible && (
+        <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__fadeInDown">
           <input
             type="text"
             placeholder="Search game"
@@ -42,12 +44,12 @@ function Card() {
           )}
         </div>
       )}
-            <Carousel />
-     
-            <div className="bg-[#69a2ff] p-2 grid grid-cols-3 gap-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-7 rounded-lg mb-3 border-white " style={{ boxShadow: "rgb(157 194 255) 0px 2px 4px, rgb(157 194 255) 0px 7px 13px -3px, rgb(157 194 255) 0px -2px 0px inset" }}>
-                <h1 className="pl-4 text-3xl text-white font-lighter ">Racing</h1>
-            </div>
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      <Carousel />
+
+      <div className="bg-[#69a2ff] p-2 grid grid-cols-3 gap-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-7 rounded-lg mb-3 border-white " style={{ boxShadow: "rgb(157 194 255) 0px 2px 4px, rgb(157 194 255) 0px 7px 13px -3px, rgb(157 194 255) 0px -2px 0px inset" }}>
+        <h1 className="pl-4 text-2xl text-white font-lighter ">Racing</h1>
+      </div>
+      <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {filteredPhotos.length > 0 ? (
           filteredPhotos.map((item, index) => (
             <div
@@ -74,13 +76,14 @@ function Card() {
             </div>
           ))
         ) : (
-          
+
           <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>No game found</h1>
 
         )}
       </div>
-        </div>
-    );
+      <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>{length === 0 && "No game found"}</h1>
+    </div>
+  );
 }
 
 export default Card;

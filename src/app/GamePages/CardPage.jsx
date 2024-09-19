@@ -13,11 +13,12 @@ export const CardPhoto = [
         version: '30.4.206605',
         time: 'Sep 3, 2024',
         Appto: 'https://apps.apple.com/us/app/hearthstone/id625257520',
-        Playto: 'https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone'
+        Playto: 'https://play.google.com/store/apps/details?id=com.blizzard.wtcg.hearthstone',
+        screenShot:['/Card/CardScreenshot/Hearthstone/Hearthstone1.webp','/Card/CardScreenshot/Hearthstone/Hearthstone2.webp','/Card/CardScreenshot/Hearthstone/Hearthstone3.webp','/Card/CardScreenshot/Hearthstone/Hearthstone4.webp','/Card/CardScreenshot/Hearthstone/Hearthston5.webp','/Card/CardScreenshot/Hearthstone/Hearthston6.webp','/Card/CardScreenshot/Hearthstone/Hearthston7.webp',]
     },
     {
         img: '/Card/Yu-Gi-Oh!DuelLinks.webp',
-          title: 'Yu-Gi-Oh! Duel Links',
+          title: 'Yu-Gi-Oh! Duel Links',  
           description: 'Yu-Gi-Oh! Duel Links takes place in a virtual world where players can engage in card duels with characters from the Yu-Gi-Oh! anime series. The game includes iconic characters like Yugi Muto, Seto Kaiba, Joey Wheeler, and many more from various eras of Yu-Gi-Oh!, including GX, 5D’s, and ZEXAL. Players collect cards, build decks, and battle against other duelists in both single-player and online PvP duels.',
           description1: 'The core gameplay is centered around using a deck of monsters, spells, and trap cards to reduce your opponent is life points to zero.',
           description2: 'The game uses the Speed Duel format, which simplifies some of the more complex aspects of traditional Yu-Gi-Oh! gameplay, allowing for quicker and more dynamic duels. Players use 20-30 card decks (as opposed to the traditional 40-60) and play on a smaller game board, with three monster zones and three spell/trap zones instead of the standard five. Life points are also reduced to 4,000, making each duel more fast-paced.',
@@ -28,7 +29,8 @@ export const CardPhoto = [
           version: '8.11.0',
           time: 'Aug 19, 2024',
           Appto: 'https://apps.apple.com/us/app/yu-gi-oh-duel-links/id1068378177',
-          Playto: 'https://play.google.com/store/apps/details?id=jp.konami.duellinks'
+          Playto: 'https://play.google.com/store/apps/details?id=jp.konami.duellinks',
+          screenShot:['/Card/CardScreenshot/DuelLinks/DuelLinks1.webp','/Card/CardScreenshot/DuelLinks/DuelLinks2.webp','/Card/CardScreenshot/DuelLinks/DuelLinks4.webp','/Card/CardScreenshot/DuelLinks/DuelLinks6.webp','/Card/CardScreenshot/DuelLinks/DuelLinks7.webp','/Card/CardScreenshot/DuelLinks/DuelLinks8.webp']
       },    {
         img: '/Card/LegendsofRuneterra.webp',
           title: 'Legends of Runeterra',
@@ -42,7 +44,8 @@ export const CardPhoto = [
           version: '05.09.032',
           time: 'Sep 5, 2024',
           Appto: 'https://apps.apple.com/us/app/legends-of-runeterra/id1480617557',
-          Playto: 'https://play.google.com/store/apps/details?id=com.riotgames.legendsofruneterra'
+          Playto: 'https://play.google.com/store/apps/details?id=com.riotgames.legendsofruneterra',
+          screenShot:['/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra1.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra2.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra3.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra4.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra5.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra6.webp','/Card/CardScreenshot/LegendsofRuneterra/LegendsofRuneterra7.webp']
       },    {
         img: '/Card/uno.webp',
           title: 'UNO!™',
@@ -56,7 +59,8 @@ export const CardPhoto = [
           version: '1.13.4641',
           time: 'Aug 22, 2024',
           Appto: 'https://apps.apple.com/us/app/uno/id1344700142',
-          Playto: 'https://play.google.com/store/apps/details?id=com.matteljv.uno '
+          Playto: 'https://play.google.com/store/apps/details?id=com.matteljv.uno',
+          screenShot:['/Card/CardScreenshot/UNO/UNO1.webp','/Card/CardScreenshot/UNO/UNO2.webp','/Card/CardScreenshot/UNO/UNO3.webp','/Card/CardScreenshot/UNO/UNO4.webp','/Card/CardScreenshot/UNO/UNO5.webp','/Card/CardScreenshot/UNO/UNO6.webp']
       },    {
         img: '/Card/TheGatheringArena.webp',
           title: 'Magic: The Gathering Arena',
@@ -70,7 +74,8 @@ export const CardPhoto = [
           version: '2024.40.30.2906',
           time: 'Sep 12, 2024',
           Appto: 'https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521',
-          Playto: 'https://play.google.com/store/apps/details?id=com.wizards.mtga'
+          Playto: 'https://play.google.com/store/apps/details?id=com.wizards.mtga',
+          screenShot:['/Card/CardScreenshot/Magic/Magic1.webp','/Card/CardScreenshot/Magic/Magic2.webp','/Card/CardScreenshot/Magic/Magic3.webp','/Card/CardScreenshot/Magic/Magic4.webp','/Card/CardScreenshot/Magic/Magic5.webp','/Card/CardScreenshot/Magic/Magic6.webp','/Card/CardScreenshot/Magic/Magic7.webp']
       },    {
         img: '/Card/ClashRoyale.webp',
           title: 'Clash Royale',
@@ -84,7 +89,8 @@ export const CardPhoto = [
           version: '70288038',
           time: 'Aug 19, 2024',
           Appto: 'https://apps.apple.com/us/app/clash-royale/id1053012308',
-          Playto: 'https://play.google.com/store/apps/details?id=com.supercell.clashroyale'
+          Playto: 'https://play.google.com/store/apps/details?id=com.supercell.clashroyale',
+          screenShot:['/Card/CardScreenshot/ClashRoyale/ClashRoyale1.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale2.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale3.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale4.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale5.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale6.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale7.webp','/Card/CardScreenshot/ClashRoyale/ClashRoyale8.webp']
       },    {
         img: '/Card/TheWitcherCardGame.webp',
           title: 'GWENT: The Witcher Card Game',
@@ -98,7 +104,8 @@ export const CardPhoto = [
           version: '11.10.9',
           time: 'Dec 20, 2023',
           Appto: 'https://apps.apple.com/us/app/gwent-the-witcher-card-game/id1466943149',
-          Playto: 'https://play.google.com/store/apps/details?id=com.cdprojektred.gwent '
+          Playto: 'https://play.google.com/store/apps/details?id=com.cdprojektred.gwent ',
+          screenShot:['/Card/CardScreenshot/GWENT/GWENT1.webp','/Card/CardScreenshot/GWENT/GWENT2.webp','/Card/CardScreenshot/GWENT/GWENT3.webp','/Card/CardScreenshot/GWENT/GWENT4.webp','/Card/CardScreenshot/GWENT/GWENT5.webp','/Card/CardScreenshot/GWENT/GWENT6.webp','/Card/CardScreenshot/GWENT/GWENT7.webp']
       },    {
         img: '/Card/CardThief.webp',
           title: 'Card Thief',
@@ -112,7 +119,8 @@ export const CardPhoto = [
           version: '1.3.8',
           time: 'Jan 8, 2024',
           Appto: 'https://apps.apple.com/us/app/card-thief/id1186226470',
-          Playto: 'https://play.google.com/store/apps/details?id=com.tinytouchtales.cardthief'
+          Playto: 'https://play.google.com/store/apps/details?id=com.tinytouchtales.cardthief',
+          screenShot:['/Card/CardScreenshot/Card%20Thief/CardThief1.webp','/Card/CardScreenshot/Card%20Thief/CardThief2.webp','/Card/CardScreenshot/Card%20Thief/CardThief3.webp','/Card/CardScreenshot/Card%20Thief/CardThief4.webp','/Card/CardScreenshot/Card%20Thief/CardThief5.webp','/Card/CardScreenshot/Card%20Thief/CardThief6.webp','/Card/CardScreenshot/Card%20Thief/CardThief7.webp']
       },    {
         img: '/Card/pokemon.webp',
           title: 'Pokémon TCG Live',
@@ -126,7 +134,8 @@ export const CardPhoto = [
           version: '1.18.0',
           time: 'Aug 30, 2024',
           Appto: 'https://apps.apple.com/us/app/pok%C3%A9mon-tcg-live/id1557962344',
-          Playto: 'https://play.google.com/store/apps/details?id=com.pokemon.pokemontcgl'
+          Playto: 'https://play.google.com/store/apps/details?id=com.pokemon.pokemontcgl',
+          screenShot:['/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon1.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon2.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon3.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon4.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon5.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon6.webp','/Card/CardScreenshot/Pok%C3%A9mon/Pok%C3%A9mon7.webp']
       },    {
         img: '/Card/ShadowverseCCG.webp',
           title: 'Shadowverse CCG',
@@ -140,7 +149,8 @@ export const CardPhoto = [
           version: '4.6.1',
           time: 'Jul 5, 2024',
           Appto: 'https://apps.apple.com/us/app/shadowverse-ccg/id1091512762',
-          Playto: 'https://play.google.com/store/apps/details?id=com.cygames.Shadowverse'
+          Playto: 'https://play.google.com/store/apps/details?id=com.cygames.Shadowverse',
+          screenShot:['/Card/CardScreenshot/Shadowverse/Shadowverse1.webp','/Card/CardScreenshot/Shadowverse/Shadowverse2.webp','/Card/CardScreenshot/Shadowverse/Shadowverse3.webp','/Card/CardScreenshot/Shadowverse/Shadowverse4.webp','/Card/CardScreenshot/Shadowverse/Shadowverse5.webp','/Card/CardScreenshot/Shadowverse/Shadowverse6.webp','/Card/CardScreenshot/Shadowverse/Shadowverse7.webp']
       },  
       //   {
       //   img: '/Card/Callofduty.webp',

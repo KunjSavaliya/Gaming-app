@@ -12,7 +12,8 @@ export const PuzzlePhoto = [
         version: '1.4.12',
         time: 'Jun 23, 2024',
         Appto: 'https://apps.apple.com/us/app/tears-companion/id6449003066',
-        Playto: 'https://play.google.com/store/apps/details?id=com.SoftwareNotion.TearsCompanion&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.SoftwareNotion.TearsCompanion&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion1.webp','/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion2.webp','/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion3.webp','/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion4.webp','/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion5.webp','/Puzzle/PuzzleScreenshot/TearsCompanion/TearsCompanion6.webp']
     },
     {
         img: '/Puzzle/Babaisyou.webp',
@@ -27,7 +28,8 @@ export const PuzzlePhoto = [
         version: '535.0',
         time: 'Jun 20, 2024',
         Appto: 'https://apps.apple.com/us/app/baba-is-you/id1517281887',
-        Playto: 'https://play.google.com/store/apps/details?id=org.hempuli.baba&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=org.hempuli.baba&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou1.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou2.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou3.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou4.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou5.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou6.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou7.webp','/Puzzle/PuzzleScreenshot/BabaIsYou/BabaIsYou8.webp']
     }, {
         img: '/Puzzle/TetrisBlockPuzzle.webp',
         title: 'Tetris® Block Puzzle',
@@ -41,7 +43,8 @@ export const PuzzlePhoto = [
         version: '1.5.1053',
         time: 'Sep 13, 2024',
         Appto: 'https://apps.apple.com/us/app/tetris-block-puzzle/id6448698584',
-        Playto: 'https://play.google.com/store/apps/details?id=com.playstudios.tetris4&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.playstudios.tetris4&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle1.webp','/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle2.webp','/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle3.webp','/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle4.webp','/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle5.webp','/Puzzle/PuzzleScreenshot/TetrisBlockPuzzle/BlockPuzzle6.webp']
     }, {
         img: '/Puzzle/MonumentValley2.webp',
         title: 'Monument Valley 2',
@@ -55,7 +58,8 @@ export const PuzzlePhoto = [
         version: '3.7.501',
         time: 'Sep 4, 2024',
         Appto: 'https://apps.apple.com/us/app/monument-valley-2/id1187265767',
-        Playto: 'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley1.webp','/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley2.webp','/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley3.webp','/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley4.webp','/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley5.webp','/Puzzle/PuzzleScreenshot/MonumentValley/MonumentValley6.webp']
     }, {
         img: '/Puzzle/TypomanRemastered.webp',
         title: 'Typoman Remastered',
@@ -69,7 +73,8 @@ export const PuzzlePhoto = [
         version: '1.2.20',
         time: 'Aug 31, 2024',
         Appto: 'https://apps.apple.com/us/app/typoman-remastered/id1263413091',
-        Playto: 'https://play.google.com/store/apps/details?id=com.BrainseedFactory.Typoman&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.BrainseedFactory.Typoman&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered1.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered2.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered3.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered4.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered5.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered6.webp','/Puzzle/PuzzleScreenshot/TypomanRemastered/TypomanRemastered7.webp']
     }, {
         img: '/Puzzle/LAYTONBROTHERSMYSTERYROOM.webp',
         title: 'LAYTON BROTHERS MYSTERY ROOM',
@@ -83,7 +88,8 @@ export const PuzzlePhoto = [
         version: '1.1.2',
         time: 'Aug 28, 2024',
         Appto: 'https://apps.apple.com/us/app/layton-brothers-mystery-room/id640517092',
-        Playto: 'https://play.google.com/store/apps/details?id=com.Level_5.MysteryRoomENG&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.Level_5.MysteryRoomENG&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS1.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS2.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS3.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS4.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS5.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS6.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS7.webp','/Puzzle/PuzzleScreenshot/LAYTONBROTHERS/LAYTONBROTHERS8.webp']
     }, {
         img: '/Puzzle/NonogramsKatana.webp',
         title: 'Nonograms Katana',
@@ -97,7 +103,8 @@ export const PuzzlePhoto = [
         version: '19.04',
         time: 'Jul 29, 2024',
         Appto: 'https://apps.apple.com/us/app/nonograms-katana/id1037710023',
-        Playto: 'https://play.google.com/store/apps/details?id=com.ucdevs.jcross&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.ucdevs.jcross&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana1.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana2.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana3.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana4.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana5.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana6.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana7.webp','/Puzzle/PuzzleScreenshot/NonogramsKatana/NonogramsKatana8.webp']
     }, {
         img: '/Puzzle/HumanFallFlat.webp',
         title: 'Human Fall Flat',
@@ -111,7 +118,8 @@ export const PuzzlePhoto = [
         version: '1.14',
         time: 'Sep 13, 2023',
         Appto: 'https://apps.apple.com/us/app/human-fall-flat/id1438091392',
-        Playto: 'https://play.google.com/store/apps/details?id=com.and.games505.humanfallflat&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.and.games505.humanfallflat&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat1.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat2.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat3.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat4.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat5.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat6.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat7.webp','/Puzzle/PuzzleScreenshot/HumanFallFlat/HumanFallFlat8.webp']
     }, {
         img: '/Puzzle/Gorogoa.webp',
         title: 'Gorogoa',
@@ -125,7 +133,8 @@ export const PuzzlePhoto = [
         version: '1.2.1',
         time: 'May 23, 2024',
         Appto: 'https://play.google.com/store/apps/details?id=unity.Annapurna.Gorogoa&hl=en-US',
-        Playto: 'https://apps.apple.com/us/app/gorogoa/id1269225754'
+        Playto: 'https://apps.apple.com/us/app/gorogoa/id1269225754',
+        screenShot:['/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa1.png','/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa2.png','/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa3.png','/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa4.png','/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa5.png','/Puzzle/PuzzleScreenshot/Gorogoa/Gorogoa6.png']
     }, {
         img: '/Puzzle/Sokobond.webp',
         title: 'Sokobond',
@@ -139,7 +148,8 @@ export const PuzzlePhoto = [
         version: '2.0.4',
         time: 'Sep 10, 2024',
         Appto: 'https://apps.apple.com/us/app/sokobond/id1047551452',
-        Playto: 'https://play.google.com/store/apps/details?id=air.com.sokobond&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=air.com.sokobond&hl=en-US',
+        screenShot:['/Puzzle/PuzzleScreenshot/Sokobond/Sokobond2.webp','/Puzzle/PuzzleScreenshot/Sokobond/Sokobond1.webp','/Puzzle/PuzzleScreenshot/Sokobond/Sokobond3.webp','/Puzzle/PuzzleScreenshot/Sokobond/Sokobond4.webp','/Puzzle/PuzzleScreenshot/Sokobond/Sokobond5.webp','/Puzzle/PuzzleScreenshot/Sokobond/Sokobond6.webp']
     },
 
 ]

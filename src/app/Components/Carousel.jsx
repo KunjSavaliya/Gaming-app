@@ -49,16 +49,16 @@ const Carousel = () => {
   }, [photos.length, itemsPerPage]);
 
   return (
-    <div className="relative  mb-6">
+    <div className="relative mb-6">
       {/* Image grid */}
-      <div className="relative grid grid-cols-3 gap-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9 transition-transform duration-500 ease-in-out">
+      <div className="relative grid grid-cols-3 gap-6 transition-transform duration-500 ease-in-out sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9">
         {photos.slice(currentIndex, currentIndex + itemsPerPage).map((image, index) => (
           <div key={index} className="flex-shrink-0 w-full">
             <div className="relative overflow-hidden rounded-[30px] w-[70px] h-[70px] cursor-pointer">
               <Image
                 src={image.img}
                 alt={image.title}
-                className="object-cover rounded-lg w-full h-full"
+                className="object-cover w-full h-full rounded-lg"
                 width={100}
                 height={100}
               />

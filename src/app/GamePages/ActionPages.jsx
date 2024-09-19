@@ -14,7 +14,7 @@ export const ActionPhoto = [
         time: 'Aug 20, 2024',
         Appto: 'https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214',
         Playto: 'https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=en_IN',
-        screenShot:[]
+        screenShot:['/Action/ActionScreenshot/CallofDuty/CallofDuty1.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty2.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty3.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty4.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty5.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty6.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty7.webp','/Action/ActionScreenshot/CallofDuty/CallofDuty8.webp']
     }, {
 
         img: '/Action/Fire.jpg',
@@ -29,7 +29,8 @@ export const ActionPhoto = [
         version: '1.31.01',
         time: 'Mar 30, 2017',
         Appto: 'https://apps.apple.com/us/app/cover-fire-gun-shooting-games/id1148931033',
-        Playto: 'https://play.google.com/store/apps/details?id=com.generagames.resistance&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.generagames.resistance&hl=en-US',
+        screenShot:['/Action/ActionScreenshot/CoverFire/CoverFire1.webp','/Action/ActionScreenshot/CoverFire/CoverFire2.webp','/Action/ActionScreenshot/CoverFire/CoverFire3.webp','/Action/ActionScreenshot/CoverFire/CoverFire4.webp','/Action/ActionScreenshot/CoverFire/CoverFire5.webp','/Action/ActionScreenshot/CoverFire/CoverFire6.webp']
     }, {
 
         img: '/Action/PUBG_MOBILE__Aftermath_4bb1c1.jpg',
@@ -44,7 +45,8 @@ export const ActionPhoto = [
         version: '1.8.0',
         time: '12 January 2022',
         Appto: 'https://apps.apple.com/us/app/pubg-mobile/id1330123889',
-        Playto: 'https://play.google.com/store/apps/details?id=com.tencent.ig&hl=zh&gl=US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.tencent.ig&hl=zh&gl=US',
+        screenShot:['/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE2.webp','/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE3.webp','/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE4.webp','/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE5.webp','/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE6.webp','/Action/ActionScreenshot/PUBGMOBILE/PUBGMOBILE7.webp']
     }, {
         img: '/Action/Garena_Free_Fire__5th_Anniv_ed790b.jpg',
         title: 'Garena Free Fire: 5th Anniv',
@@ -58,7 +60,8 @@ export const ActionPhoto = [
         version: '1.92.1',
         time: 'January 20, 2022',
         Appto: 'https://apps.apple.com/us/app/free-fire/id1300146617',
-        Playto: 'https://play.google.com/store/apps/details?id=com.dts.freefireth'
+        Playto: 'https://play.google.com/store/apps/details?id=com.dts.freefireth',
+        screenShot:['/Action/ActionScreenshot/FreeFire/FreeFire1.webp','/Action/ActionScreenshot/FreeFire/FreeFire2.webp','/Action/ActionScreenshot/FreeFire/FreeFire3.webp','/Action/ActionScreenshot/FreeFire/FreeFire4.webp','/Action/ActionScreenshot/FreeFire/FreeFire5.webp','/Action/ActionScreenshot/FreeFire/FreeFire6.webp','/Action/ActionScreenshot/FreeFire/FreeFire7.webp']
     },
     {
         img: '/Action/Honkai_Impact_3rd_185645.jpg',
@@ -73,7 +76,8 @@ export const ActionPhoto = [
         version: '2.0.0_3513686_3617618',
         time: '9 July 2021',
         Appto: 'https://apps.apple.com/us/app/genshin-impact-natlan-launch/id1517783697',
-        Playto: 'https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=None'
+        Playto: 'https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=None',
+        screenShot:['/Action/ActionScreenshot/HonkaiImpact/Honkai1.webp','/Action/ActionScreenshot/HonkaiImpact/Honkai2.webp','/Action/ActionScreenshot/HonkaiImpact/Honkai3.webp','/Action/ActionScreenshot/HonkaiImpact/Honkai4.webp',,'/Action/ActionScreenshot/HonkaiImpact/Honkai5.webp',,'/Action/ActionScreenshot/HonkaiImpact/Honkai6.webp',,'/Action/ActionScreenshot/HonkaiImpact/Honkai7.webp']
     }, {
         img: '/Action/c-ops.jpg',
         title: 'Critical Ops: Multiplayer FPS',
@@ -87,7 +91,8 @@ export const ActionPhoto = [
         version: '1.46.1.f2733',
         time: 'Sep 10, 2024',
         Appto: 'https://apps.apple.com/us/app/critical-ops-online-pvp-fps/id1017717218',
-        Playto: 'https://play.google.com/store/apps/details?id=com.criticalforceentertainment.criticalops'
+        Playto: 'https://play.google.com/store/apps/details?id=com.criticalforceentertainment.criticalops',
+        screenShot:['/Action/ActionScreenshot/CriticalOps/CriticalOps1.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps2.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps3.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps4.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps5.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps6.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps7.webp','/Action/ActionScreenshot/CriticalOps/CriticalOps8.webp']
     },
     {
         img: '/Action/shadowfight.webp',
@@ -102,7 +107,8 @@ export const ActionPhoto = [
         version: '1.9.20',
         time: 'Aug 14, 2024',
         Appto: 'https://apps.apple.com/us/app/shadow-fight-4-arena/id1479050948',
-        Playto: 'https://play.google.com/store/apps/details?id=com.nekki.shadowfightarena&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.nekki.shadowfightarena&hl=en-US',
+        screenShot:['/Action/ActionScreenshot/ShadowFight/ShadowFight1.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight2.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight3.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight4.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight5.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight6.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight7.webp','/Action/ActionScreenshot/ShadowFight/ShadowFight8.webp']
     },
     {
         img: '/Action/Dead2.jpg',
@@ -117,7 +123,8 @@ export const ActionPhoto = [
         version: '1.72.0',
         time: 'Aug 23, 2024',
         Appto: 'https://apps.apple.com/us/app/into-the-dead-2/id1151220243',
-        Playto: 'https://play.google.com/store/apps/details?id=com.pikpok.dr2.play&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.pikpok.dr2.play&hl=en-US',
+        screenShot:['/Action/ActionScreenshot/IntotheDead/IntotheDead1.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead2.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead3.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead4.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead5.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead6.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead7.webp','/Action/ActionScreenshot/IntotheDead/IntotheDead8.webp']
     },
     {
         img: '/Action/MARVEL_Strike_Force__Squad_RPG_33b05a.jpg',
@@ -132,7 +139,8 @@ export const ActionPhoto = [
         version: '6.5.1',
         time: 'Oct 27, 2022',
         Appto: 'https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049',
-        Playto: 'https://play.google.com/store/apps/details?id=com.foxnextgames.m3&hl=en_US&gl=US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.foxnextgames.m3&hl=en_US&gl=US',
+        screenShot:['/Action/ActionScreenshot/MARVEL/MARVEL1.webp','/Action/ActionScreenshot/MARVEL/MARVEL2.webp','/Action/ActionScreenshot/MARVEL/MARVEL3.webp','/Action/ActionScreenshot/MARVEL/MARVEL4.webp','/Action/ActionScreenshot/MARVEL/MARVEL5.webp','/Action/ActionScreenshot/MARVEL/MARVEL6.webp','/Action/ActionScreenshot/MARVEL/MARVEL7.webp']
     },
     {
         img: '/Action/convice.jpg',
@@ -147,7 +155,8 @@ export const ActionPhoto = [
         version: '5.0 and up',
         time: 'Aug 29, 2024',
         Appto: '',
-        Playto: 'https://play.google.com/store/apps/details?id=com.netease.ko&hl=en-US'
+        Playto: 'https://play.google.com/store/apps/details?id=com.netease.ko&hl=en-US',
+        screenShot:['/Action/ActionScreenshot/KnivesOut/KnivesOut1.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut2.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut3.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut4.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut5.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut6.webp','/Action/ActionScreenshot/KnivesOut/KnivesOut7.webp']
     },
 
 ]
