@@ -1,27 +1,22 @@
 import React from 'react';
 import Image from 'next/image';
-import "../globals.css"; // Custom global styles
+import "../globals.css";
 import { useSearchParams } from 'next/navigation';
 import { AdventurePhoto } from '../GamePages/AdventurePage';
 import { CardPhoto } from '../GamePages/CardPage';
 import { RacingPhoto } from '../GamePages/RacingPage';
-import Carousel from '../Components/Carousel';
 import { PuzzlePhoto } from '../GamePages/PuzzlePage';
-import { ActionPhoto } from '../GamePages/ActionPages'; // Adjust the path to gameTitle
+import { ActionPhoto } from '../GamePages/ActionPages';
 import { imgTile } from "../Home/gameTitle";
 
 const GameSlider = () => {
   const searchParams = useSearchParams();
-  const title = searchParams.get('title'); // Get the title from the URL
-
+  const title = searchParams.get('title');
   const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto, PuzzlePhoto);
   const gameScreenshot = photos.find((game) => game?.title === title);
-
   return (
     <div className="relative w-full max-w-6xl mx-auto my-8">
-      {/* Horizontal scroll container with custom scrollbar */}
       <div className="flex py-4 space-x-4 overflow-x-scroll cursor-pointer custom-scrollbar">
-        {/* Check if gameScreenshot exists and has screenshots */}
         {gameScreenshot?.screenShot?.map((src, index) => (
           <div
             key={index}

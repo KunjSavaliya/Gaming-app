@@ -14,43 +14,38 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(7);
   const { isSearchVisible, setIsSearchVisible } = useSearch();
-   // Default number of images
-  const router = useRouter();
-  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto,PuzzlePhoto)
 
-  // Update the number of images per page based on screen size
+  const router = useRouter();
+  const photos = imgTile.concat(ActionPhoto, AdventurePhoto, CardPhoto, RacingPhoto, PuzzlePhoto)
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setItemsPerPage(3); // Mobile screens
+        setItemsPerPage(3);
       } else if (window.innerWidth >= 640 && window.innerWidth < 768) {
-        setItemsPerPage(5); // Small screens
+        setItemsPerPage(5);
       } else if (window.innerWidth >= 768 && window.innerWidth < 1024) {
-        setItemsPerPage(7); // Medium screens
+        setItemsPerPage(7);
       } else if (window.innerWidth >= 1024 && window.innerWidth < 1280) {
-        setItemsPerPage(9); // Large screens
+        setItemsPerPage(9);
       } else {
-        setItemsPerPage(9); 
+        setItemsPerPage(9);
       }
     };
-
     window.addEventListener('resize', handleResize);
-    handleResize(); // Call on mount to set initial value
-
+    handleResize();
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Auto-scroll carousel every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === Math.floor(photos.length / itemsPerPage) ? 0 : prevIndex + 1
       );
     }, 3000);
-
     return () => clearInterval(interval);
   }, [photos.length, itemsPerPage]);
-  
+
   const handleImageClick = (game) => {
     setIsSearchVisible(false)
     const encodedTitle = encodeURIComponent(game.title);
@@ -58,10 +53,9 @@ const Carousel = () => {
   };
   return (
     <div className="relative mb-6">
-      {/* Image grid */}
       <div className="relative grid grid-cols-3 gap-6 transition-transform duration-500 ease-in-out sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9">
         {photos.slice(currentIndex, currentIndex + itemsPerPage).map((image, index) => (
-          <div key={index} className="flex-shrink-0 w-full"   onClick={() => handleImageClick(image)}>
+          <div key={index} className="flex-shrink-0 w-full" onClick={() => handleImageClick(image)}>
             <div className="relative overflow-hidden rounded-[30px] w-[70px] h-[70px] cursor-pointer">
               <Image
                 src={image.img}
@@ -80,8 +74,6 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-
-      {/* Left Button */}
       <div className="absolute left-[-40px] top-1/2 transform -translate-y-1/2 z-10">
         <button
           className="px-4 py-2 text-[#69a2ff]  rounded-full  focus:outline-none"
@@ -95,7 +87,6 @@ const Carousel = () => {
         </button>
       </div>
 
-      {/* Right Button */}
       <div className="absolute right-[-40px] top-1/2 transform -translate-y-1/2 z-10">
         <button
           className="px-4 py-2 text-[#69a2ff] rounded-full  focus:outline-none"

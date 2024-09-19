@@ -11,20 +11,18 @@ import 'animate.css';
 function Card() {
   const router = useRouter();
   const { isSearchVisible, setIsSearchVisible } = useSearch();
-
   const [searchQuery, setSearchQuery] = useState('');
   const handleImageClick = (game) => {
     const encodedTitle = encodeURIComponent(game.title);
     router.push(`/GameDescription?title=${encodedTitle}`);
   };
   const clearSearch = () => {
-    setIsSearchVisible(false); // Hide search bar
+    setIsSearchVisible(false);
   };
   const filteredPhotos = RacingPhoto.filter((photo) =>
     photo.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
   const length = filteredPhotos?.length
-
   return (
     <div className="flex flex-col items-center justify-center p-5  mb-[17%]">
       {isSearchVisible && (
@@ -76,9 +74,7 @@ function Card() {
             </div>
           ))
         ) : (
-
           <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>No game found</h1>
-
         )}
       </div>
       <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>{length === 0 && "No game found"}</h1>

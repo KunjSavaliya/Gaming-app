@@ -1,9 +1,9 @@
-'use client'; // Required for using hooks in the App Router
+'use client';
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation'; // 'next/navigation' in Next.js 13+
-import { imgTile } from './gameTitle'; // Adjust the path
+import { useRouter } from 'next/navigation';
+import { imgTile } from './gameTitle';
 import { ActionPhoto } from '../GamePages/ActionPages';
 import { CardPhoto } from '../GamePages/CardPage';
 import { AdventurePhoto } from '../GamePages/AdventurePage';
@@ -18,28 +18,21 @@ function HomeGames() {
   const router = useRouter();
   const { isSearchVisible, setIsSearchVisible } = useSearch();
   const [searchQuery, setSearchQuery] = useState('');
-
   const photos = imgTile.concat(AdventurePhoto, CardPhoto, RacingPhoto, PuzzlePhoto, ActionPhoto);
-
   const handleImageClick = (game) => {
     setIsSearchVisible(false)
-    const encodedTitle = encodeURIComponent(game.title); // URL-safe title
+    const encodedTitle = encodeURIComponent(game.title);
     router.push(`/GameDescription?title=${encodedTitle}`);
   };
-
-  // Filter photos based on search query
   const filteredPhotos = photos.filter((photo) =>
     photo.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
   const clearSearch = () => {
-    setIsSearchVisible(false); // Hide search bar
+    setIsSearchVisible(false);
   };
-
   const length = filteredPhotos?.length
   return (
     <div className="flex flex-col items-center justify-center p-5">
-      {/* Show search bar if isSearchVisible is true */}
       {isSearchVisible && (
         <div className="relative w-full max-w-sm mb-4 sm:max-w-md md:max-w-lg lg:max-w-xl animate__animated animate__fadeInDown">
           <input
@@ -57,9 +50,7 @@ function HomeGames() {
           )}
         </div>
       )}
-
       <Carousel />
-
       <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {filteredPhotos.length > 0 ? (
           filteredPhotos.map((item, index) => (
@@ -89,7 +80,6 @@ function HomeGames() {
         ) : (
           <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'></h1>
         )}
-
       </div>
       <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2 text-center'>{length === 0 && "No game found"}</h1>
     </div>

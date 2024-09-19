@@ -1,5 +1,4 @@
-'use client'; // Required for client-side hooks in the App Router
-
+'use client'; 
 import React, { Suspense } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
 
