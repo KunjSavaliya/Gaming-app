@@ -5,9 +5,12 @@ import Image from 'next/image';
 import { PiMagnifyingGlass } from 'react-icons/pi';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { useRouter } from 'next/navigation';
+import { useSearch } from './SerchContext';
+
 function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
   const router = useRouter();
+  const { isSearchVisible, toggleSearch, setIsSearchVisible } = useSearch(); // Use the context
   const handleNavigation = (path) => {
     router.push(path);
     if (isSidebarOpen) {
@@ -15,9 +18,11 @@ function Header() {
     }
     setIsSearchVisible(false);
   };
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
   return (
     <header>
       <div
