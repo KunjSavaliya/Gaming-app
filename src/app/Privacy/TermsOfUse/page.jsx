@@ -58,8 +58,9 @@ function TermsOfUse() {
          <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>Disclaimer of Warranties</h1>
         <hr className="w-full border-gray-300 border-t-1" />
         <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-        All content on the website, including games and third-party links, is provided "as is" without warranties of any kind, either express or implied. We do not guarantee the accuracy, reliability, or availability of the content, and your use of the site is at your own risk.
-         </h2>
+  All content on the website, including games and third-party links, is provided &quot;as is&quot; without warranties of any kind, either express or implied. We do not guarantee the accuracy, reliability, or availability of the content, and your use of the site is at your own risk.
+</h2>
+
      
          <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>Eligibility</h1>
         <hr className="w-full border-gray-300 border-t-1" />
