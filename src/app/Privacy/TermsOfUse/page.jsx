@@ -79,71 +79,58 @@ function TermsOfUse() {
             &bull; to help authenticate you, to remember your preferences and login details; and
           </h2>
           <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
-            &bull; to provide advertisements on our Websites tailored to your interests. We may use third-party cookies to collect information about your activities on our Websites and elsewhere over time to provide you with targeted advertising.
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4 mb-4">
-            &bull; You may set your browser to refuse cookies or to alert you when cookies are being sent. However, if you do so, some parts of our Websites may not function properly. We may also use web beacons (small graphic images) on our Websites or in our e-mails to help us count users who have visited certain pages or opened e-mails and to deliver cookies. Web beacons are also known as web bugs, tracking bugs, or clear gifs.
-          </h2>
-        </div>
-        <h1 className='text-2xl text-[#69a2ff] mb-2 mt-4'>3. USE OF YOUR INFORMATION</h1>
-        <hr className="w-full border-gray-300 border-t-1" />
-        <div className="mt-2">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            3.1 populargamesforyou collects, processes, and uses the information we gather about our users to:
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            &bull; Improve our Websites and the overall user experience; &bull; Provide you with customer service, including help with technical issues and game-related queries;
+            &bull; to remember your preferences and registration information, as applicable;
           </h2>
           <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
-            &bull; Personalize the content of our Websites and any advertisements displayed on them; and
-          </h2>
+  &bull; to present and help measure and research the effectiveness of SPIL&apos;s offerings, advertisements, and email communications;
+</h2>
+
           <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base">
-            &bull; Send you promotional information about our Websites, or our partners, that we think may interest you. This includes sending marketing communications and offers related to the Websites and third parties’ products and services.
+            &bull; to customize the content and advertisements provided to you through the Websites.
           </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            3.2 If you do not wish to receive such communications, you may opt out by following the unsubscribe instructions provided in the communication or by contacting us directly.
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            3.3 We may use your information to conduct market research and improve our services based on feedback and usage patterns. We may also analyze the data for the purposes of understanding how users interact with our Websites and how we can improve the user experience.
-          </h2>
-        </div>
-        <h1 className='text-2xl text-[#69a2ff] mb-2 mt-4'>4. SHARING YOUR INFORMATION</h1>
-        <hr className="w-full border-gray-300 border-t-1" />
-        <div className="mt-2">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            4.1 We do not sell, rent, or lease your personal data to third parties. However, we may share your information with the following parties:
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            &bull; Service providers and partners who assist us in operating our Websites, conducting our business, or providing services to you, as long as those parties agree to keep this information confidential.
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            &bull; With third parties as required by law, or to protect our rights, property, or safety, or that of our users or others.
-          </h2>
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            &bull; In connection with any merger, acquisition, or sale of all or a portion of our assets, we may transfer your information to the acquiring entity.
-          </h2>
-        </div>
-        <h1 className='text-2xl text-[#69a2ff] mb-2 mt-4'>5. DATA SECURITY</h1>
-        <hr className="w-full border-gray-300 border-t-1" />
-        <div className="mt-2">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            5.1 We take reasonable measures to protect the information we collect from loss, theft, misuse, unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, so we cannot guarantee absolute security.
-          </h2>
-        </div>
-        <h1 className='text-2xl text-[#69a2ff] mb-2 mt-4'>6. CHANGES TO THIS PRIVACY POLICY</h1>
-        <hr className="w-full border-gray-300 border-t-1" />
-        <div className="mt-2">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            6.1 We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this Privacy Policy periodically to stay informed about our practices.
-          </h2>
-        </div>
-        <h1 className='text-2xl text-[#69a2ff] mb-2 mt-4'>7. CONTACT US</h1>
-        <hr className="w-full border-gray-300 border-t-1" />
-        <div className="mt-2">
-          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
-            7.1 If you have any questions about this Privacy Policy or our practices, please contact us at [email address].
-          </h2>
-        </div>
+          <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">If you do not want populargamesforyou to store any cookies on your computer, you can prevent this by changing your browser settings to “do not accept cookies”. Your browser manufacturer will provide you more details on how this works. However, we do inform you that you will not be able to use the Websites including its functionalities as intended. If you want to learn more about H5Gmestreet’s use of Cookies, please click here for our cookie policy.
+            </h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            2.4 populargamesforyou uses analytics partners in order to help get insights into the usage of the Websites and services (“Usage Data”). These analytics partners process Usage Data which may include among others your IP address, geographical location,  browser type and version, operating system, length of visit, page views and other information about how you use and navigate the Websites. This data is used to analyze the use of the Websites and to improve the Websites and services. Our analytics partners will act as a data processor in relation to the Usage Data. The legal basis for the processing of the Usage Data is legitimate interest.
+            </h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            2.5 populargamesforyou also uses ad network providers, ad exchanges and ad servers (“Advertising Partners”) to help present advertisements on the Websites. These Advertising Partners use cookies, web beacons, or similar technologies for presenting, better targeting, and measuring the effectiveness of their advertisements, using data gathered over time and across their networks of web pages to determine or predict the characteristics and preferences of their audiences (“Advertising Data”). populargamesforyou processes such information in accordance with this Privacy Policy. Our Advertising Partners may act as a data processor or data controller with regards to the Advertising Data, depending on the scope of their services. The Advertising Partners are responsible for their compliance with the applicable data protection legislation. The use of cookies, web beacons, or similar technologies by such third parties as ad network providers is subject to their own privacy policies, not this Privacy Policy. The legal basis for the processing of the Advertising Data is consent.
+            </h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            2.6 populargamesforyou uses Facebook technology to provide certain services on the Websites. The Websites may include the “Facebook Like Button” which is controlled by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304 USA (Facebook). In the event you click on the Facebook Like Button, Facebook will ask you whether you want to log in to Facebook if you are not logged in at that moment, or register with Facebook. If you decide to do so, your personal data will be transferred to Facebook. In the event you are already logged into your Facebook account and you have given SPIL your explicit consent to the sharing of your information with Facebook, your information is shared with Facebook when visiting the Websites or playing games including the “Facebook Like Button”.
+            </h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            The Websites also use the “Facebook Pixel” controlled by Facebook in order to show conversions, create “lookalike audiences” and provide SPIL with relevant statistics about our Websites in order to improve them. When you use our websites and you have given SPIL your explicit consent to the sharing of your information with Facebook, your information is automatically shared with Facebook.
+            </h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            For more information on the “Facebook Like Button” and “Facebook Pixel” and sharing and use of your personal data please consult Facebook’s Data Policy at:
+            
+            </h2>
+            <p className='text-[#69a2ff]'><Link href={'https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0'}>https://www.facebook.com/policy.php</Link></p>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">
+            2.7 For optimizing our services and the Websites, and for the purposes mentioned in this article 2, we are entitled to combine your personal data (including your  email address, as applicable) with other information about you collected by or provided to us.
+            </h2>
+
+            <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>3. TO WHOM DOES populargamesforyou PROVIDE THIS INFORMATION?</h1>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-4">3.1 populargamesforyou may provide information to any party whose services it engages for the purposes of its normal operations (for example, those partners who assist us by providing technical or operational facilities for the Websites and so forth), as mentioned under section 2. We may also supply information to other parties if we are required to do so by law or by a ruling handed down by a court of law.populargamesforyou does not provide personal details to other parties for commercial, advertising, or marketing purposes, except if you explicitly give us permission to do so, or if doing so is part of a specific program or operation for which you have registered. In such case, you may withdraw your permission at any time.</h2>
+       
+            <h1 className='text-2xl mt-2 text-[#69a2ff] mb-2'>4. WHY DO WE COLLECT INFORMATION?</h1>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">4.1 We use personal data and other information to maintain the general and personalized content and functionality of the Websites. In addition, we use personal details to make it possible to accommodate your requests, and so that we are able to provide you with the services, as described herein, when using the Websites and for the purposes set out elsewhere in this Privacy Policy. We may (among others) use the information that we have about you:</h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull; To provide you access to the Websites and associated games and services, and continuously improve their features</h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull; To store your Website settings, gaming-history and provide personalized content</h2>
+    <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To provide customer support services</h2>
+      <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To provide our chat service</h2>
+        <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To analyze and optimize the functioning of the Websites and games</h2>
+       <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To enable in-game purchases</h2>
+         <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To provide relevant advertisements and to send you promotional messages by email or other  communications in case you have given your consent for this</h2>
+      <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To enable social network integration, especially with Facebook and Google+</h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To provide competitions</h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To prevent cheating, fraud and crime</h2>
+            <h2 className="font-light text-[#696969] flex items-center gap-2 text-sm md:text-base mt-1">&bull;To meet legal and tax obligations</h2>
+
+
+        </div>  
+        
       </div>
     </div>
   );
